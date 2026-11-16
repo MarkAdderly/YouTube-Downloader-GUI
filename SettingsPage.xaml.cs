@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Diagnostics;
 using System.Globalization;
 using System.Windows;
@@ -46,7 +46,7 @@ namespace YT_DLP_GUI
 
                 relang();
 
-                if (Application.Current.MainWindow is MainWindow mainWindow)
+                if (Application.Current.MainWindow is MainWindow mainWindow && !string.IsNullOrEmpty(Properties.Settings.Default.lang))
                 {
                     mainWindow.LoadLang(Properties.Settings.Default.lang);
                 }
@@ -70,7 +70,7 @@ namespace YT_DLP_GUI
 
                 if (DlpCreditLabel != null)
                 {
-                    DlpCreditLabel.Text = $"{locSet["dlpcredit"]} | YT DLP GUI";
+                    DlpCreditLabel.Text = $"{locSet["dlpcredit"]} | YouTube Downloader";
                 }
             }
             catch { }
@@ -90,7 +90,7 @@ namespace YT_DLP_GUI
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"{ex.Message}", "YT DLP GUI", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"{ex.Message}", "YouTube Downloader", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 

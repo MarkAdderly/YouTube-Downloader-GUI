@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Омода барои кор.",
-                "status_info": "Боргирии маълумот дар бораи видео...",
-                "status_preparing": "Омодагӣ ба зеркашӣ...",
-                "status_done": "Тайёр! Файл бо муваффақият захира шуд.",
-                "status_fetching": "Боргирӣ: ",
-                "status_downloading": "Зеркашӣ...",
-                "status_ffmpeg": "Якҷоякунӣ / Табдилдиҳии аудиои FFmpeg...",
-                "status_canceled": "Зеркашӣ аз ҷониби корбар бекор карда шуд.",
-                "status_noname": "Номи номаълум",
-                "error": "Хатогӣ",
-                "error1": "Боргирии маълумот муяссар нашуд",
-                "error2": "Хатогӣ ҳангоми хондани маълумот",
-                "error3": "Ҷузвдони зикршуда вуҷуд надорад. Аввал видеоро зеркашӣ кунед ё ҷузвдонро эҷод кунед.",
-                "openfoldertitle": "Ҷузвдонро барои захира кардани файлҳо интихоб кунед",
-                "pastefirst": "Лутфан, истиноди YouTube-ро ворид кунед.",
-                "updatedialog": "Навсозии YT DLP GUI дастрас аст.\nТавсия дода мешавад, ки версияи охиринро насб кунед, ки ислоҳот ва навсозиҳои китобхонаҳоро дар бар мегирад.",
-                "updatebutton": "Навсозӣ",
-                "updatecancel": "Ба таъхир андохтан"
-            },
-            "gui": {
-                "videolink": "Истинод ба видео:",
-                "savelocation": "Макони захиракунӣ:",
-                "savemode": "Ҳолати зеркашӣ:",
-                "quality": "Сифат:",
-                "extension": "Формат:",
-                "audio": "Аудио",
-                "video": "Видео",
-                "options": "Танзимоти зеркашӣ:",
-                "onlyvideo": "Танҳо видео (бе садо)",
-                "browse": "Мурури файлҳо",
-                "open": "Кушодан",
-                "max": "Максимум дастрас",
-                "button_start": "Оғози зеркашӣ",
-                "button_cancel": "Бекор кардани зеркашӣ",
-                "set": "Танзимот / Дар бораи барнома"
-            },
-            "settings": {
-                "label": "Танзимот",
-                "back": "Бозгашт",
-                "lang": "Забони барнома",
-                "cred": "Идея ва таҳия:",
-                "credNik": "Нишонаи барнома:",
-                "credthx": "Ташаккури махсус:",
-                "sitebutton": "Сомонаи расмӣ",
-                "dlpcredit": "Барнома дар асоси yt-dlp сохта шудааст",
-                "githubrepo": "Репозиторий дар GitHub"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Омода барои кор.",
+        "status_info": "Боргирии маълумот дар бораи видео...",
+        "status_preparing": "Омодагӣ ба зеркашӣ...",
+        "status_done": "Тайёр! Файл бо муваффақият захира шуд.",
+        "status_fetching": "Боргирӣ: ",
+        "status_downloading": "Зеркашӣ...",
+        "status_ffmpeg": "Эҷоди файл...",
+        "status_canceled": "Зеркашӣ аз ҷониби корбар бекор карда шуд.",
+        "status_noname": "Номи номаълум",
+        "error": "Хатогӣ",
+        "error1": "Боргирии маълумот муяссар нашуд",
+        "error2": "Хатогӣ ҳангоми хондани маълумот",
+        "error3": "Ҷузвдони зикршуда вуҷуд надорад. Аввал видеоро зеркашӣ кунед ё ҷузвдонро эҷод кунед.",
+        "openfoldertitle": "Ҷузвдонро барои захира кардани файлҳо интихоб кунед",
+        "pastefirst": "Лутфан, истиноди YouTube-ро ворид кунед.",
+        "updatedialog": "Навсозии YouTube Downloader дастрас аст.\nТавсия дода мешавад, ки версияи охиринро насб кунед, ки ислоҳот ва навсозиҳои китобхонаҳоро дар бар мегирад.",
+        "updatebutton": "Навсозӣ",
+        "updatecancel": "Ба таъхир андохтан",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "Зеркашии видео... ",
+        "status_downloading_audio": "Зеркашии аудио... "
+      },
+      "gui": {
+        "videolink": "Истинод ба видео:",
+        "savelocation": "Макони захиракунӣ:",
+        "savemode": "Ҳолати зеркашӣ:",
+        "quality": "Сифат:",
+        "extension": "Формат:",
+        "audio": "Аудио",
+        "video": "Видео",
+        "options": "Танзимоти зеркашӣ:",
+        "onlyvideo": "Танҳо видео (бе садо)",
+        "browse": "Мурури файлҳо",
+        "open": "Кушодан",
+        "max": "Максимум дастрас",
+        "button_start": "Оғози зеркашӣ",
+        "button_cancel": "Бекор кардани зеркашӣ",
+        "set": "Танзимот / Дар бораи барнома",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "Танзимот",
+        "back": "Бозгашт",
+        "lang": "Забони барнома",
+        "cred": "Идея ва таҳия:",
+        "credNik": "Нишонаи барнома:",
+        "credthx": "Ташаккури махсус:",
+        "sitebutton": "Сомонаи расмӣ",
+        "dlpcredit": "Барнома дар асоси yt-dlp сохта шудааст",
+        "githubrepo": "Репозиторий дар GitHub"
+      }
     }
+  }
 }

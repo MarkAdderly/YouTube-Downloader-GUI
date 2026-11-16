@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Pasiruošęs darbui.",
-                "status_info": "Įkeliama informacija apie vaizdo įrašą...",
-                "status_preparing": "Ruošiamasi atsisiuntimui...",
-                "status_done": "Atlikta! Failas sėkmingai išsaugotas.",
-                "status_fetching": "Įkeliama: ",
-                "status_downloading": "Atsisiunčiama...",
-                "status_ffmpeg": "Sujungimas / Konvertavimas naudojant FFmpeg...",
-                "status_canceled": "Atsisiuntimas vartotojo atšauktas.",
-                "status_noname": "Nežinomas pavadinimas",
-                "error": "Klaida",
-                "error1": "Nepavyko įkelti duomenų",
-                "error2": "Klaida skaitant duomenis",
-                "error3": "Nurodytas aplankas neegzistuoja. Pirmiausia atsisiųskite vaizdo įrašą arba sukurkite aplanką.",
-                "openfoldertitle": "Pasirinkite aplanką failams išsaugoti",
-                "pastefirst": "Prašome įklijuoti YouTube nuorodą.",
-                "updatedialog": "Yra prieinamas YT DLP GUI atnaujinimas.\nRekomenduojama įdiegti naujausią versiją, kurioje yra pataisymai ir bibliotekų atnaujinimai.",
-                "updatebutton": "Atnaujinti",
-                "updatecancel": "Atidėti"
-            },
-            "gui": {
-                "videolink": "Vaizdo įrašo nuoroda:",
-                "savelocation": "Išsaugojimo vieta:",
-                "savemode": "Atsisiuntimo režimas:",
-                "quality": "Kokybė:",
-                "extension": "Formatas:",
-                "audio": "Garsas",
-                "video": "Vaizdo įrašas",
-                "options": "Atsisiuntimo nustatymai:",
-                "onlyvideo": "Tik vaizdas (be garso)",
-                "browse": "Naršyti",
-                "open": "Atidaryti",
-                "max": "Maksimali galima",
-                "button_start": "Pradėti atsisiuntimą",
-                "button_cancel": "Atšaukti atsisiuntimą",
-                "set": "Nustatymai / Apie programą"
-            },
-            "settings": {
-                "label": "Nustatymai",
-                "back": "Atgal",
-                "lang": "Programos kalba",
-                "cred": "Idėja ir kūrimas:",
-                "credNik": "Programos piktograma:",
-                "credthx": "Ypatingas ačiū:",
-                "sitebutton": "Oficiali svetainė",
-                "dlpcredit": "Programa sukurta naudojant yt-dlp",
-                "githubrepo": "GitHub saugykla"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Pasiruošęs darbui.",
+        "status_info": "Įkeliama informacija apie vaizdo įrašą...",
+        "status_preparing": "Ruošiamasi atsisiuntimui...",
+        "status_done": "Atlikta! Failas sėkmingai išsaugotas.",
+        "status_fetching": "Įkeliama: ",
+        "status_downloading": "Atsisiunčiama...",
+        "status_ffmpeg": "Kuriamas failas...",
+        "status_canceled": "Atsisiuntimas vartotojo atšauktas.",
+        "status_noname": "Nežinomas pavadinimas",
+        "error": "Klaida",
+        "error1": "Nepavyko įkelti duomenų",
+        "error2": "Klaida skaitant duomenis",
+        "error3": "Nurodytas aplankas neegzistuoja. Pirmiausia atsisiųskite vaizdo įrašą arba sukurkite aplanką.",
+        "openfoldertitle": "Pasirinkite aplanką failams išsaugoti",
+        "pastefirst": "Prašome įklijuoti YouTube nuorodą.",
+        "updatedialog": "Yra prieinamas YouTube Downloader atnaujinimas.\nRekomenduojama įdiegti naujausią versiją, kurioje yra pataisymai ir bibliotekų atnaujinimai.",
+        "updatebutton": "Atnaujinti",
+        "updatecancel": "Atidėti",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "Atsisiunčiamas vaizdo įrašas... ",
+        "status_downloading_audio": "Atsisiunčiamas garsas... "
+      },
+      "gui": {
+        "videolink": "Vaizdo įrašo nuoroda:",
+        "savelocation": "Išsaugojimo vieta:",
+        "savemode": "Atsisiuntimo režimas:",
+        "quality": "Kokybė:",
+        "extension": "Formatas:",
+        "audio": "Garsas",
+        "video": "Vaizdo įrašas",
+        "options": "Atsisiuntimo nustatymai:",
+        "onlyvideo": "Tik vaizdas (be garso)",
+        "browse": "Naršyti",
+        "open": "Atidaryti",
+        "max": "Maksimali galima",
+        "button_start": "Pradėti atsisiuntimą",
+        "button_cancel": "Atšaukti atsisiuntimą",
+        "set": "Nustatymai / Apie programą",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "Nustatymai",
+        "back": "Atgal",
+        "lang": "Programos kalba",
+        "cred": "Idėja ir kūrimas:",
+        "credNik": "Programos piktograma:",
+        "credthx": "Ypatingas ačiū:",
+        "sitebutton": "Oficiali svetainė",
+        "dlpcredit": "Programa sukurta naudojant yt-dlp",
+        "githubrepo": "GitHub saugykla"
+      }
     }
+  }
 }

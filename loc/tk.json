@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Işlem üçin taýýar.",
-                "status_info": "Wideo maglumatlary ýüklenýär...",
-                "status_preparing": "Ýükläp almak üçin taýýarlanýar...",
-                "status_done": "Taýýar! Faýl üstünlikli ýazdyryldy.",
-                "status_fetching": "Ýüklenýär: ",
-                "status_downloading": "Ýüklenýär...",
-                "status_ffmpeg": "FFmpeg arkaly birleşdirilýär / öwrülýär...",
-                "status_canceled": "Ýükleme ulanyjy tarapyndan ýatyryldy.",
-                "status_noname": "Näbelli at",
-                "error": "Ýalňyşlyk",
-                "error1": "Maglumatlary ýükläp bolmady",
-                "error2": "Maglumatlary okamakda ýalňyşlyk",
-                "error3": "Görkezilen papka ýok. Ilki wideo ýükläň ýa-da papka dörediň.",
-                "openfoldertitle": "Faýllary ýazdyrmak üçin papkany saýlaň",
-                "pastefirst": "Haýyş, YouTube salgysyny goýuň.",
-                "updatedialog": "YT DLP GUI täzelemesi bar.\nDüzedişleri we kitaphana täzelemelerini öz içine alýan iň täze wersiýany gurnamak maslahat berilýär.",
-                "updatebutton": "Täzelemek",
-                "updatecancel": "Soňa goýmak"
-            },
-            "gui": {
-                "videolink": "Wideo salgysy:",
-                "savelocation": "Ýazdyrylýan ýeri:",
-                "savemode": "Ýükleme tertibi:",
-                "quality": "Hil:",
-                "extension": "Format:",
-                "audio": "Audio",
-                "video": "Wideo",
-                "options": "Ýükleme sazlamalary:",
-                "onlyvideo": "Diňe wideo (sesi ýok)",
-                "browse": "Gözlemek",
-                "open": "Açmak",
-                "max": "Iň ýokary elýeterli",
-                "button_start": "Ýükläp başla",
-                "button_cancel": "Ýüklemäni ýatyryň",
-                "set": "Sazlamalar / Programma barada"
-            },
-            "settings": {
-                "label": "Sazlamalar",
-                "back": "Yza",
-                "lang": "Programma dili",
-                "cred": "Ideýa we ösüş:",
-                "credNik": "Programma nyşany:",
-                "credthx": "Aýratyn sag bolsun:",
-                "sitebutton": "Resmi saýt",
-                "dlpcredit": "Programma yt-dlp esaslanýar",
-                "githubrepo": "GitHub repozitoriýasy"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Işlem üçin taýýar.",
+        "status_info": "Wideo maglumatlary ýüklenýär...",
+        "status_preparing": "Ýükläp almak üçin taýýarlanýar...",
+        "status_done": "Taýýar! Faýl üstünlikli ýazdyryldy.",
+        "status_fetching": "Ýüklenýär: ",
+        "status_downloading": "Ýüklenýär...",
+        "status_ffmpeg": "Faýl döredilýär...",
+        "status_canceled": "Ýükleme ulanyjy tarapyndan ýatyryldy.",
+        "status_noname": "Näbelli at",
+        "error": "Ýalňyşlyk",
+        "error1": "Maglumatlary ýükläp bolmady",
+        "error2": "Maglumatlary okamakda ýalňyşlyk",
+        "error3": "Görkezilen papka ýok. Ilki wideo ýükläň ýa-da papka dörediň.",
+        "openfoldertitle": "Faýllary ýazdyrmak üçin papkany saýlaň",
+        "pastefirst": "Haýyş, YouTube salgysyny goýuň.",
+        "updatedialog": "YouTube Downloader täzelemesi bar.\nDüzedişleri we kitaphana täzelemelerini öz içine alýan iň täze wersiýany gurnamak maslahat berilýär.",
+        "updatebutton": "Täzelemek",
+        "updatecancel": "Soňa goýmak",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "Wideo ýüklenýär... ",
+        "status_downloading_audio": "Audio ýüklenýär... "
+      },
+      "gui": {
+        "videolink": "Wideo salgysy:",
+        "savelocation": "Ýazdyrylýan ýeri:",
+        "savemode": "Ýükleme tertibi:",
+        "quality": "Hil:",
+        "extension": "Format:",
+        "audio": "Audio",
+        "video": "Wideo",
+        "options": "Ýükleme sazlamalary:",
+        "onlyvideo": "Diňe wideo (sesi ýok)",
+        "browse": "Gözlemek",
+        "open": "Açmak",
+        "max": "Iň ýokary elýeterli",
+        "button_start": "Ýükläp başla",
+        "button_cancel": "Ýüklemäni ýatyryň",
+        "set": "Sazlamalar / Programma barada",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "Sazlamalar",
+        "back": "Yza",
+        "lang": "Programma dili",
+        "cred": "Ideýa we ösüş:",
+        "credNik": "Programma nyşany:",
+        "credthx": "Aýratyn sag bolsun:",
+        "sitebutton": "Resmi saýt",
+        "dlpcredit": "Programma yt-dlp esaslanýar",
+        "githubrepo": "GitHub repozitoriýasy"
+      }
     }
+  }
 }

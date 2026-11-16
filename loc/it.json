@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Pronto per l'uso.",
-                "status_info": "Caricamento informazioni video...",
-                "status_preparing": "Preparazione al download...",
-                "status_done": "Fatto! File salvato correttamente.",
-                "status_fetching": "Caricamento: ",
-                "status_downloading": "Download in corso...",
-                "status_ffmpeg": "Unione / Conversione audio FFmpeg...",
-                "status_canceled": "Download annullato dall'utente.",
-                "status_noname": "Nome sconosciuto",
-                "error": "Errore",
-                "error1": "Impossibile caricare i dati",
-                "error2": "Errore durante la lettura dei dati",
-                "error3": "La cartella specificata non esiste. Scarica prima un video o crea la cartella.",
-                "openfoldertitle": "Seleziona la cartella di salvataggio",
-                "pastefirst": "Per favore, incolla un link di YouTube.",
-                "updatedialog": "È disponibile un aggiornamento per YT DLP GUI.\nSi consiglia di installare la versione corrente, che include correzioni e aggiornamenti delle librerie.",
-                "updatebutton": "Aggiorna",
-                "updatecancel": "Posticipa"
-            },
-            "gui": {
-                "videolink": "Link del video:",
-                "savelocation": "Percorso di salvataggio:",
-                "savemode": "Modalità di download:",
-                "quality": "Qualità:",
-                "extension": "Formato:",
-                "audio": "Audio",
-                "video": "Video",
-                "options": "Opzioni di download:",
-                "onlyvideo": "Solo video (senza audio)",
-                "browse": "Sfoglia",
-                "open": "Apri",
-                "max": "Massima disponibile",
-                "button_start": "Avvia download",
-                "button_cancel": "Annulla download",
-                "set": "Impostazioni / Informazioni"
-            },
-            "settings": {
-                "label": "Impostazioni",
-                "back": "Indietro",
-                "lang": "Lingua del programma",
-                "cred": "Idea e sviluppo:",
-                "credNik": "Icona del programma:",
-                "credthx": "Ringraziamenti speciali:",
-                "sitebutton": "Sito ufficiale",
-                "dlpcredit": "Il programma è basato su yt-dlp",
-                "githubrepo": "Repository su GitHub"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Pronto per l'uso.",
+        "status_info": "Caricamento informazioni video...",
+        "status_preparing": "Preparazione al download...",
+        "status_done": "Fatto! File salvato correttamente.",
+        "status_fetching": "Caricamento: ",
+        "status_downloading": "Download in corso...",
+        "status_ffmpeg": "Creazione del file...",
+        "status_canceled": "Download annullato dall'utente.",
+        "status_noname": "Nome sconosciuto",
+        "error": "Errore",
+        "error1": "Impossibile caricare i dati",
+        "error2": "Errore durante la lettura dei dati",
+        "error3": "La cartella specificata non esiste. Scarica prima un video o crea la cartella.",
+        "openfoldertitle": "Seleziona la cartella di salvataggio",
+        "pastefirst": "Per favore, incolla un link di YouTube.",
+        "updatedialog": "È disponibile un aggiornamento per YouTube Downloader.\nSi consiglia di installare la versione corrente, che include correzioni e aggiornamenti delle librerie.",
+        "updatebutton": "Aggiorna",
+        "updatecancel": "Posticipa",
+        "ytdlp_update_dialog": "È disponibile una nuova versione della libreria yt-dlp ({0}). Aggiornare ora?\n\nAttenzione: rifiutare l'aggiornamento potrebbe impedire il download dei video.",
+        "ytdlp_update_title": "Aggiornamento yt-dlp",
+        "ytdlp_downloading": "Download di yt-dlp: ",
+        "ytdlp_done": "Libreria yt-dlp aggiornata con successo!",
+        "ytdlp_error": "Impossibile aggiornare yt-dlp.",
+        "status_downloading_video": "Download del video... ",
+        "status_downloading_audio": "Download dell'audio... "
+      },
+      "gui": {
+        "videolink": "Link del video:",
+        "savelocation": "Percorso di salvataggio:",
+        "savemode": "Modalità di download:",
+        "quality": "Qualità:",
+        "extension": "Formato:",
+        "audio": "Audio",
+        "video": "Video",
+        "options": "Opzioni di download:",
+        "onlyvideo": "Solo video (senza audio)",
+        "browse": "Sfoglia",
+        "open": "Apri",
+        "max": "Massima disponibile",
+        "button_start": "Avvia download",
+        "button_cancel": "Annulla download",
+        "set": "Impostazioni / Informazioni",
+        "update_ytdlp": "Installa aggiornamento",
+        "audio_orig": "Qualità originale"
+      },
+      "settings": {
+        "label": "Impostazioni",
+        "back": "Indietro",
+        "lang": "Lingua del programma",
+        "cred": "Idea e sviluppo:",
+        "credNik": "Icona del programma:",
+        "credthx": "Ringraziamenti speciali:",
+        "sitebutton": "Sito ufficiale",
+        "dlpcredit": "Il programma è basato su yt-dlp",
+        "githubrepo": "Repository su GitHub"
+      }
     }
+  }
 }

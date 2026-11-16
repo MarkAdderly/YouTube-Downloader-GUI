@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
@@ -10,14 +10,15 @@
     <AssemblyTitle>YT-DLP-GUI</AssemblyTitle>
     <AssemblyName>YT-DLP-GUI</AssemblyName>
     <Version>1.0.0</Version>
-    <PackageIcon>You-Tube-16.png</PackageIcon>
+    <PackageIcon>Icon.png</PackageIcon>
     <PackageProjectUrl>https://adderly.top</PackageProjectUrl>
     <ApplicationIcon>img/icon.ico</ApplicationIcon>
     <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
     <FileVersion>1.0.0</FileVersion>
     <AssemblyVersion>1.0.0</AssemblyVersion>
-    <Title>YT DLP GUI</Title>
+    <Title>YouTube Downloader</Title>
     <Copyright>MarkAdderly</Copyright>
+
   </PropertyGroup>
 
   <ItemGroup>
@@ -27,7 +28,7 @@
 
   <ItemGroup>
     <PackageReference Include="iNKORE.UI.WPF.Modern" Version="0.10.2.1" />
-    <PackageReference Include="MicaWPF" Version="6.3.2" />
+    <PackageReference Include="MicaWPF" Version="7.1.0" />
     <PackageReference Include="ModernWpfUI" Version="0.9.6" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
   </ItemGroup>
@@ -48,6 +49,12 @@
     <Resource Include="img\You-Tube-16.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="img\Icon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="img\icon.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
@@ -59,6 +66,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="img\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Update="img\You-Tube-16.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
@@ -66,6 +77,9 @@
     <None Update="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="ffmpeg.exe;ffplay.exe;ffprobe.exe;yt-dlp.exe;av*.dll;sw*.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 

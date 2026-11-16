@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Պատրաստ է աշխատանքի:",
-                "status_info": "Տեսանյութի մասին տեղեկատվության բեռնում...",
-                "status_preparing": "Ներբեռնման նախապատրաստում...",
-                "status_done": "Պատրաստ է! Ֆայլը հաջողությամբ պահպանված է:",
-                "status_fetching": "Բեռնում: ",
-                "status_downloading": "Ներբեռնում...",
-                "status_ffmpeg": "FFmpeg աուդիոյի միացում / փոխարկում...",
-                "status_canceled": "Ներբեռնումը չեղարկվել է օգտատիրոջ կողմից:",
-                "status_noname": "Անհայտ անվանում",
-                "error": "Սխալ",
-                "error1": "Տվյալները չհաջողվեց բեռնել",
-                "error2": "Տվյալները կարդալու սխալ",
-                "error3": "Նշված թղթապանակը գոյություն չունի: Նախ ներբեռնեք տեսանյութը կամ ստեղծեք թղթապանակը:",
-                "openfoldertitle": "Ընտրեք ֆայլերը պահպանելու թղթապանակը",
-                "pastefirst": "Խնդրում ենք տեղադրել YouTube-ի հղումը:",
-                "updatedialog": "Հասանելի է YT DLP GUI-ի թարմացում:\nԽորհուրդ է տրվում տեղադրել ընթացիկ տարբերակը, որը պարունակում է ուղղումներ և գրադարանների թարմացումներ:",
-                "updatebutton": "Թարմացնել",
-                "updatecancel": "Հետաձգել"
-            },
-            "gui": {
-                "videolink": "Տեսանյութի հղումը:",
-                "savelocation": "Պահպանման վայրը:",
-                "savemode": "Ներբեռնման ռեժիմը:",
-                "quality": "Որակը:",
-                "extension": "Ֆորմատը:",
-                "audio": "Աուդիո",
-                "video": "Տեսանյութ",
-                "options": "Ներբեռնման կարգավորումներ:",
-                "onlyvideo": "Միայն տեսաշար (առանց ձայնի)",
-                "browse": "Զննել",
-                "open": "Բացել",
-                "max": "Առավելագույն հասանելի",
-                "button_start": "Սկսել ներբեռնումը",
-                "button_cancel": "Չեղարկել ներբեռնումը",
-                "set": "Կարգավորումներ / Ծրագրի մասին"
-            },
-            "settings": {
-                "label": "Կարգավորումներ",
-                "back": "Հետ",
-                "lang": "Ծրագրի լեզուն",
-                "cred": "Գաղափար և մշակում:",
-                "credNik": "Ծրագրի պատկերակը:",
-                "credthx": "Հատուկ շնորհակալություն:",
-                "sitebutton": "Պաշտոնական կայք",
-                "dlpcredit": "Ծրագիրը հիմնված է yt-dlp-ի վրա",
-                "githubrepo": "GitHub պահոց"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Պատրաստ է աշխատանքի:",
+        "status_info": "Տեսանյութի մասին տեղեկատվության բեռնում...",
+        "status_preparing": "Ներբեռնման նախապատրաստում...",
+        "status_done": "Պատրաստ է! Ֆայլը հաջողությամբ պահպանված է:",
+        "status_fetching": "Բեռնում: ",
+        "status_downloading": "Ներբեռնում...",
+        "status_ffmpeg": "Ֆայլի ստեղծում...",
+        "status_canceled": "Ներբեռնումը չեղարկվել է օգտատիրոջ կողմից:",
+        "status_noname": "Անհայտ անվանում",
+        "error": "Սխալ",
+        "error1": "Տվյալները չհաջողվեց բեռնել",
+        "error2": "Տվյալները կարդալու սխալ",
+        "error3": "Նշված թղթապանակը գոյություն չունի: Նախ ներբեռնեք տեսանյութը կամ ստեղծեք թղթապանակը:",
+        "openfoldertitle": "Ընտրեք ֆայլերը պահպանելու թղթապանակը",
+        "pastefirst": "Խնդրում ենք տեղադրել YouTube-ի հղումը:",
+        "updatedialog": "Հասանելի է YouTube Downloader-ի թարմացում:\nԽորհուրդ է տրվում տեղադրել ընթացիկ տարբերակը, որը պարունակում է ուղղումներ և գրադարանների թարմացումներ:",
+        "updatebutton": "Թարմացնել",
+        "updatecancel": "Հետաձգել",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "Տեսանյութի ներբեռնում... ",
+        "status_downloading_audio": "Աուդիոյի ներբեռնում... "
+      },
+      "gui": {
+        "videolink": "Տեսանյութի հղումը:",
+        "savelocation": "Պահպանման վայրը:",
+        "savemode": "Ներբեռնման ռեժիմը:",
+        "quality": "Որակը:",
+        "extension": "Ֆորմատը:",
+        "audio": "Աուդիո",
+        "video": "Տեսանյութ",
+        "options": "Ներբեռնման կարգավորումներ:",
+        "onlyvideo": "Միայն տեսաշար (առանց ձայնի)",
+        "browse": "Զննել",
+        "open": "Բացել",
+        "max": "Առավելագույն հասանելի",
+        "button_start": "Սկսել ներբեռնումը",
+        "button_cancel": "Չեղարկել ներբեռնումը",
+        "set": "Կարգավորումներ / Ծրագրի մասին",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "Կարգավորումներ",
+        "back": "Հետ",
+        "lang": "Ծրագրի լեզուն",
+        "cred": "Գաղափար և մշակում:",
+        "credNik": "Ծրագրի պատկերակը:",
+        "credthx": "Հատուկ շնորհակալություն:",
+        "sitebutton": "Պաշտոնական կայք",
+        "dlpcredit": "Ծրագիրը հիմնված է yt-dlp-ի վրա",
+        "githubrepo": "GitHub պահոց"
+      }
     }
+  }
 }

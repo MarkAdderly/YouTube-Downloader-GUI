@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Készen áll.",
-                "status_info": "Videóinformációk betöltése...",
-                "status_preparing": "Letöltés előkészítése...",
-                "status_done": "Kész! A fájl sikeresen mentve.",
-                "status_fetching": "Betöltés: ",
-                "status_downloading": "Letöltés...",
-                "status_ffmpeg": "FFmpeg hang összefűzés / konvertálás...",
-                "status_canceled": "A letöltést a felhasználó megszakította.",
-                "status_noname": "Ismeretlen cím",
-                "error": "Hiba",
-                "error1": "Nem sikerült betölteni az adatokat",
-                "error2": "Hiba az adatok olvasása közben",
-                "error3": "A megadott mappa nem létezik. Először töltsön le egy videót, vagy hozza létre a mappát.",
-                "openfoldertitle": "Válassza ki a fájlok mentési mappáját",
-                "pastefirst": "Kérjük, illessze be a YouTube linket.",
-                "updatedialog": "Elérhető a YT DLP GUI frissítése.\nAjánlott a legújabb verzió telepítése, amely javításokat és könyvtárfrissítéseket tartalmaz.",
-                "updatebutton": "Frissítés",
-                "updatecancel": "Később"
-            },
-            "gui": {
-                "videolink": "Videó linkje:",
-                "savelocation": "Mentési hely:",
-                "savemode": "Letöltési mód:",
-                "quality": "Minőség:",
-                "extension": "Formátum:",
-                "audio": "Hang",
-                "video": "Videó",
-                "options": "Letöltési beállítások:",
-                "onlyvideo": "Csak videó (hang nélkül)",
-                "browse": "Tallózás",
-                "open": "Megnyitás",
-                "max": "Maximálisan elérhető",
-                "button_start": "Letöltés indítása",
-                "button_cancel": "Letöltés megszakítása",
-                "set": "Beállítások / Névjegy"
-            },
-            "settings": {
-                "label": "Beállítások",
-                "back": "Vissza",
-                "lang": "Program nyelve",
-                "cred": "Ötlet és fejlesztés:",
-                "credNik": "Program ikonja:",
-                "credthx": "Külön köszönet:",
-                "sitebutton": "Hivatalos weboldal",
-                "dlpcredit": "A program a yt-dlp-n alapul",
-                "githubrepo": "GitHub adattár"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Készen áll.",
+        "status_info": "Videóinformációk betöltése...",
+        "status_preparing": "Letöltés előkészítése...",
+        "status_done": "Kész! A fájl sikeresen mentve.",
+        "status_fetching": "Betöltés: ",
+        "status_downloading": "Letöltés...",
+        "status_ffmpeg": "Fájl létrehozása...",
+        "status_canceled": "A letöltést a felhasználó megszakította.",
+        "status_noname": "Ismeretlen cím",
+        "error": "Hiba",
+        "error1": "Nem sikerült betölteni az adatokat",
+        "error2": "Hiba az adatok olvasása közben",
+        "error3": "A megadott mappa nem létezik. Először töltsön le egy videót, vagy hozza létre a mappát.",
+        "openfoldertitle": "Válassza ki a fájlok mentési mappáját",
+        "pastefirst": "Kérjük, illessze be a YouTube linket.",
+        "updatedialog": "Elérhető a YouTube Downloader frissítése.\nAjánlott a legújabb verzió telepítése, amely javításokat és könyvtárfrissítéseket tartalmaz.",
+        "updatebutton": "Frissítés",
+        "updatecancel": "Később",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "Videó letöltése... ",
+        "status_downloading_audio": "Hang letöltése... "
+      },
+      "gui": {
+        "videolink": "Videó linkje:",
+        "savelocation": "Mentési hely:",
+        "savemode": "Letöltési mód:",
+        "quality": "Minőség:",
+        "extension": "Formátum:",
+        "audio": "Hang",
+        "video": "Videó",
+        "options": "Letöltési beállítások:",
+        "onlyvideo": "Csak videó (hang nélkül)",
+        "browse": "Tallózás",
+        "open": "Megnyitás",
+        "max": "Maximálisan elérhető",
+        "button_start": "Letöltés indítása",
+        "button_cancel": "Letöltés megszakítása",
+        "set": "Beállítások / Névjegy",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "Beállítások",
+        "back": "Vissza",
+        "lang": "Program nyelve",
+        "cred": "Ötlet és fejlesztés:",
+        "credNik": "Program ikonja:",
+        "credthx": "Külön köszönet:",
+        "sitebutton": "Hivatalos weboldal",
+        "dlpcredit": "A program a yt-dlp-n alapul",
+        "githubrepo": "GitHub adattár"
+      }
     }
+  }
 }

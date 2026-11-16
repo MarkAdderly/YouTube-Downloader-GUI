@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "准备就绪。",
-                "status_info": "正在加载视频信息...",
-                "status_preparing": "正在准备下载...",
-                "status_done": "完成！文件已成功保存。",
-                "status_fetching": "正在加载: ",
-                "status_downloading": "正在下载...",
-                "status_ffmpeg": "正在使用 FFmpeg 合并/转换音频...",
-                "status_canceled": "下载已被用户取消。",
-                "status_noname": "未知名称",
-                "error": "错误",
-                "error1": "无法加载数据",
-                "error2": "读取数据时出错",
-                "error3": "指定的文件夹不存在。请先下载视频或创建文件夹。",
-                "openfoldertitle": "选择保存文件的文件夹",
-                "pastefirst": "请粘贴 YouTube 链接。",
-                "updatedialog": "YT DLP GUI 有可用更新。\n建议安装最新版本，其中包含修复程序和库更新。",
-                "updatebutton": "更新",
-                "updatecancel": "稍后"
-            },
-            "gui": {
-                "videolink": "视频链接:",
-                "savelocation": "保存位置:",
-                "savemode": "下载模式:",
-                "quality": "质量:",
-                "extension": "格式:",
-                "audio": "音频",
-                "video": "视频",
-                "options": "下载设置:",
-                "onlyvideo": "仅视频流（无音频）",
-                "browse": "浏览",
-                "open": "打开",
-                "max": "最高可用质量",
-                "button_start": "开始下载",
-                "button_cancel": "取消下载",
-                "set": "设置 / 关于"
-            },
-            "settings": {
-                "label": "设置",
-                "back": "返回",
-                "lang": "程序语言",
-                "cred": "创意与开发:",
-                "credNik": "程序图标:",
-                "credthx": "特别鸣谢:",
-                "sitebutton": "官方网站",
-                "dlpcredit": "程序基于 yt-dlp",
-                "githubrepo": "GitHub 仓库"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "准备就绪。",
+        "status_info": "正在加载视频信息...",
+        "status_preparing": "正在准备下载...",
+        "status_done": "完成！文件已成功保存。",
+        "status_fetching": "正在加载: ",
+        "status_downloading": "正在下载...",
+        "status_ffmpeg": "正在创建文件...",
+        "status_canceled": "下载已被用户取消。",
+        "status_noname": "未知名称",
+        "error": "错误",
+        "error1": "无法加载数据",
+        "error2": "读取数据时出错",
+        "error3": "指定的文件夹不存在。请先下载视频或创建文件夹。",
+        "openfoldertitle": "选择保存文件的文件夹",
+        "pastefirst": "请粘贴 YouTube 链接。",
+        "updatedialog": "YouTube Downloader 有可用更新。\n建议安装最新版本，其中包含修复程序和库更新。",
+        "updatebutton": "更新",
+        "updatecancel": "稍后",
+        "ytdlp_update_dialog": "yt-dlp 库有新版本可用 ({0})。是否立即更新？\n\n警告：拒绝更新可能会导致后续无法下载视频。",
+        "ytdlp_update_title": "yt-dlp 更新",
+        "ytdlp_downloading": "正在下载 yt-dlp: ",
+        "ytdlp_done": "yt-dlp 库更新成功！",
+        "ytdlp_error": "更新 yt-dlp 失败。",
+        "status_downloading_video": "正在下载视频... ",
+        "status_downloading_audio": "正在下载音频... "
+      },
+      "gui": {
+        "videolink": "视频链接:",
+        "savelocation": "保存位置:",
+        "savemode": "下载模式:",
+        "quality": "质量:",
+        "extension": "格式:",
+        "audio": "音频",
+        "video": "视频",
+        "options": "下载设置:",
+        "onlyvideo": "仅视频流（无音频）",
+        "browse": "浏览",
+        "open": "打开",
+        "max": "最高可用质量",
+        "button_start": "开始下载",
+        "button_cancel": "取消下载",
+        "set": "设置 / 关于",
+        "update_ytdlp": "安装更新",
+        "audio_orig": "原始音质"
+      },
+      "settings": {
+        "label": "设置",
+        "back": "返回",
+        "lang": "程序语言",
+        "cred": "创意与开发:",
+        "credNik": "程序图标:",
+        "credthx": "特别鸣谢:",
+        "sitebutton": "官方网站",
+        "dlpcredit": "程序基于 yt-dlp",
+        "githubrepo": "GitHub 仓库"
+      }
     }
+  }
 }

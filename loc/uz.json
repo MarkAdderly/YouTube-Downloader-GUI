@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Ishga tayyor.",
-                "status_info": "Video ma'lumotlari yuklanmoqda...",
-                "status_preparing": "Yuklab olishga tayyorlanmoqda...",
-                "status_done": "Tayyor! Fayl muvaffaqiyatli saqlandi.",
-                "status_fetching": "Yuklanmoqda: ",
-                "status_downloading": "Yuklab olinmoqda...",
-                "status_ffmpeg": "FFmpeg yordamida birlashtirish / konvertatsiya qilish...",
-                "status_canceled": "Yuklab olish foydalanuvchi tomonidan bekor qilindi.",
-                "status_noname": "Noma'lum nom",
-                "error": "Xatolik",
-                "error1": "Ma'lumotlarni yuklab bo'lmadi",
-                "error2": "Ma'lumotlarni o'qishda xatolik",
-                "error3": "Ko'rsatilgan papka mavjud emas. Avval videoni yuklab oling yoki papka yarating.",
-                "openfoldertitle": "Fayllarni saqlash uchun papkani tanlang",
-                "pastefirst": "Iltimos, YouTube havolasini joylashtiring.",
-                "updatedialog": "YT DLP GUI yangilanishi mavjud.\nXatoliklar tuzatilgan va kutubxonalar yangilangan so'nggi versiyani o'rnatish tavsiya etiladi.",
-                "updatebutton": "Yangilash",
-                "updatecancel": "Keyinroq"
-            },
-            "gui": {
-                "videolink": "Video havolasi:",
-                "savelocation": "Saqlash joyi:",
-                "savemode": "Yuklab olish rejimi:",
-                "quality": "Sifat:",
-                "extension": "Format:",
-                "audio": "Audio",
-                "video": "Video",
-                "options": "Yuklab olish sozlamalari:",
-                "onlyvideo": "Faqat video (ovozsiz)",
-                "browse": "Ko'rib chiqish",
-                "open": "Ochish",
-                "max": "Maksimal darajada",
-                "button_start": "Yuklab olishni boshlash",
-                "button_cancel": "Yuklab olishni bekor qilish",
-                "set": "Sozlamalar / Dastur haqida"
-            },
-            "settings": {
-                "label": "Sozlamalar",
-                "back": "Orqaga",
-                "lang": "Dastur tili",
-                "cred": "G'oya va ishlab chiqish:",
-                "credNik": "Dastur belgisi:",
-                "credthx": "Maxsus minnatdorchilik:",
-                "sitebutton": "Rasmiy sayt",
-                "dlpcredit": "Dastur yt-dlp asosida yaratilgan",
-                "githubrepo": "GitHub ombori"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Ishga tayyor.",
+        "status_info": "Video ma'lumotlari yuklanmoqda...",
+        "status_preparing": "Yuklab olishga tayyorlanmoqda...",
+        "status_done": "Tayyor! Fayl muvaffaqiyatli saqlandi.",
+        "status_fetching": "Yuklanmoqda: ",
+        "status_downloading": "Yuklab olinmoqda...",
+        "status_ffmpeg": "Fayl yaratilmoqda...",
+        "status_canceled": "Yuklab olish foydalanuvchi tomonidan bekor qilindi.",
+        "status_noname": "Noma'lum nom",
+        "error": "Xatolik",
+        "error1": "Ma'lumotlarni yuklab bo'lmadi",
+        "error2": "Ma'lumotlarni o'qishda xatolik",
+        "error3": "Ko'rsatilgan papka mavjud emas. Avval videoni yuklab oling yoki papka yarating.",
+        "openfoldertitle": "Fayllarni saqlash uchun papkani tanlang",
+        "pastefirst": "Iltimos, YouTube havolasini joylashtiring.",
+        "updatedialog": "YouTube Downloader yangilanishi mavjud.\nXatoliklar tuzatilgan va kutubxonalar yangilangan so'nggi versiyani o'rnatish tavsiya etiladi.",
+        "updatebutton": "Yangilash",
+        "updatecancel": "Keyinroq",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "Video yuklanmoqda... ",
+        "status_downloading_audio": "Audio yuklanmoqda... "
+      },
+      "gui": {
+        "videolink": "Video havolasi:",
+        "savelocation": "Saqlash joyi:",
+        "savemode": "Yuklab olish rejimi:",
+        "quality": "Sifat:",
+        "extension": "Format:",
+        "audio": "Audio",
+        "video": "Video",
+        "options": "Yuklab olish sozlamalari:",
+        "onlyvideo": "Faqat video (ovozsiz)",
+        "browse": "Ko'rib chiqish",
+        "open": "Ochish",
+        "max": "Maksimal darajada",
+        "button_start": "Yuklab olishni boshlash",
+        "button_cancel": "Yuklab olishni bekor qilish",
+        "set": "Sozlamalar / Dastur haqida",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "Sozlamalar",
+        "back": "Orqaga",
+        "lang": "Dastur tili",
+        "cred": "G'oya va ishlab chiqish:",
+        "credNik": "Dastur belgisi:",
+        "credthx": "Maxsus minnatdorchilik:",
+        "sitebutton": "Rasmiy sayt",
+        "dlpcredit": "Dastur yt-dlp asosida yaratilgan",
+        "githubrepo": "GitHub ombori"
+      }
     }
+  }
 }

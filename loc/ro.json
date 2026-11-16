@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Gata de lucru.",
-                "status_info": "Se încarcă informațiile despre video...",
-                "status_preparing": "Se pregătește descărcarea...",
-                "status_done": "Gata! Fișierul a fost salvat cu succes.",
-                "status_fetching": "Se încarcă: ",
-                "status_downloading": "Se descarcă...",
-                "status_ffmpeg": "Îmbinare / Conversie audio FFmpeg...",
-                "status_canceled": "Descărcare anulată de utilizator.",
-                "status_noname": "Titlu necunoscut",
-                "error": "Eroare",
-                "error1": "Nu s-au putut încărca datele",
-                "error2": "Eroare la citirea datelor",
-                "error3": "Dosarul specificat nu există. Mai întâi descărcați un video sau creați dosarul.",
-                "openfoldertitle": "Selectați dosarul pentru salvarea fișierelor",
-                "pastefirst": "Vă rugăm să inserați link-ul YouTube.",
-                "updatedialog": "Este disponibilă o actualizare pentru YT DLP GUI.\nSe recomandă instalarea versiunii actuale, care conține remedieri și actualizări ale bibliotecilor.",
-                "updatebutton": "Actualizare",
-                "updatecancel": "Amână"
-            },
-            "gui": {
-                "videolink": "Link video:",
-                "savelocation": "Locație salvare:",
-                "savemode": "Mod descărcare:",
-                "quality": "Calitate:",
-                "extension": "Format:",
-                "audio": "Audio",
-                "video": "Video",
-                "options": "Setări descărcare:",
-                "onlyvideo": "Doar video (fără sunet)",
-                "browse": "Răsfoire",
-                "open": "Deschide",
-                "max": "Maxim disponibil",
-                "button_start": "Începe descărcarea",
-                "button_cancel": "Anulează descărcarea",
-                "set": "Setări / Despre program"
-            },
-            "settings": {
-                "label": "Setări",
-                "back": "Înapoi",
-                "lang": "Limba programului",
-                "cred": "Idee și dezvoltare:",
-                "credNik": "Pictograma programului:",
-                "credthx": "Mulțumiri speciale:",
-                "sitebutton": "Site oficial",
-                "dlpcredit": "Programul se bazează pe yt-dlp",
-                "githubrepo": "Depozit pe GitHub"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Gata de lucru.",
+        "status_info": "Se încarcă informațiile despre video...",
+        "status_preparing": "Se pregătește descărcarea...",
+        "status_done": "Gata! Fișierul a fost salvat cu succes.",
+        "status_fetching": "Se încarcă: ",
+        "status_downloading": "Se descarcă...",
+        "status_ffmpeg": "Se creează fișierul...",
+        "status_canceled": "Descărcare anulată de utilizator.",
+        "status_noname": "Titlu necunoscut",
+        "error": "Eroare",
+        "error1": "Nu s-au putut încărca datele",
+        "error2": "Eroare la citirea datelor",
+        "error3": "Dosarul specificat nu există. Mai întâi descărcați un video sau creați dosarul.",
+        "openfoldertitle": "Selectați dosarul pentru salvarea fișierelor",
+        "pastefirst": "Vă rugăm să inserați link-ul YouTube.",
+        "updatedialog": "Este disponibilă o actualizare pentru YouTube Downloader.\nSe recomandă instalarea versiunii actuale, care conține remedieri și actualizări ale bibliotecilor.",
+        "updatebutton": "Actualizare",
+        "updatecancel": "Amână",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "Se descarcă videoclipul... ",
+        "status_downloading_audio": "Se descarcă audio... "
+      },
+      "gui": {
+        "videolink": "Link video:",
+        "savelocation": "Locație salvare:",
+        "savemode": "Mod descărcare:",
+        "quality": "Calitate:",
+        "extension": "Format:",
+        "audio": "Audio",
+        "video": "Video",
+        "options": "Setări descărcare:",
+        "onlyvideo": "Doar video (fără sunet)",
+        "browse": "Răsfoire",
+        "open": "Deschide",
+        "max": "Maxim disponibil",
+        "button_start": "Începe descărcarea",
+        "button_cancel": "Anulează descărcarea",
+        "set": "Setări / Despre program",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "Setări",
+        "back": "Înapoi",
+        "lang": "Limba programului",
+        "cred": "Idee și dezvoltare:",
+        "credNik": "Pictograma programului:",
+        "credthx": "Mulțumiri speciale:",
+        "sitebutton": "Site oficial",
+        "dlpcredit": "Programul se bazează pe yt-dlp",
+        "githubrepo": "Depozit pe GitHub"
+      }
     }
+  }
 }

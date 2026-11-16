@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "काम के लिए तैयार।",
-                "status_info": "वीडियो जानकारी लोड हो रही है...",
-                "status_preparing": "डाउनलोड की तैयारी की जा रही है...",
-                "status_done": "हो गया! फ़ाइल सफलतापूर्वक सहेजी गई।",
-                "status_fetching": "लोड हो रहा है: ",
-                "status_downloading": "डाउनलोड हो रहा है...",
-                "status_ffmpeg": "FFmpeg ऑडियो मर्जिंग / रूपांतरण...",
-                "status_canceled": "उपयोगकर्ता द्वारा डाउनलोड रद्द कर दिया गया।",
-                "status_noname": "अज्ञात नाम",
-                "error": "त्रुटि",
-                "error1": "डेटा लोड करने में विफल",
-                "error2": "डेटा पढ़ते समय त्रुटि",
-                "error3": "निर्दिष्ट फ़ोल्डर मौजूद नहीं है। पहले वीडियो डाउनलोड करें या फ़ोल्डर बनाएं।",
-                "openfoldertitle": "फ़ाइलें सहेजने के लिए फ़ोल्डर चुनें",
-                "pastefirst": "कृपया YouTube लिंक पेस्ट करें।",
-                "updatedialog": "YT DLP GUI का अपडेट उपलब्ध है।\nनवीनतम संस्करण स्थापित करने की अनुशंसा की जाती है, जिसमें सुधार और लाइब्रेरी अपडेट शामिल हैं।",
-                "updatebutton": "अपडेट करें",
-                "updatecancel": "बाद में"
-            },
-            "gui": {
-                "videolink": "वीडियो लिंक:",
-                "savelocation": "सहेजने का स्थान:",
-                "savemode": "डाउनलोड मोड:",
-                "quality": "गुणवत्ता:",
-                "extension": "प्रारूप:",
-                "audio": "ऑडियो",
-                "video": "वीडियो",
-                "options": "डाउनलोड सेटिंग्स:",
-                "onlyvideo": "केवल वीडियो (बिना ऑडियो के)",
-                "browse": "ब्राउज़ करें",
-                "open": "खोलें",
-                "max": "अधिकतम उपलब्ध",
-                "button_start": "डाउनलोड शुरू करें",
-                "button_cancel": "डाउनलोड रद्द करें",
-                "set": "सेटिंग्स / प्रोग्राम के बारे में"
-            },
-            "settings": {
-                "label": "सेटिंग्स",
-                "back": "वापस",
-                "lang": "प्रोग्राम की भाषा",
-                "cred": "विचार और विकास:",
-                "credNik": "प्रोग्राम आइकन:",
-                "credthx": "विशेष धन्यवाद:",
-                "sitebutton": "आधिकारिक वेबसाइट",
-                "dlpcredit": "प्रोग्राम yt-dlp पर आधारित है",
-                "githubrepo": "GitHub रिपॉजिटरी"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "काम के लिए तैयार।",
+        "status_info": "वीडियो जानकारी लोड हो रही है...",
+        "status_preparing": "डाउनलोड की तैयारी की जा रही है...",
+        "status_done": "हो गया! फ़ाइल सफलतापूर्वक सहेजी गई।",
+        "status_fetching": "लोड हो रहा है: ",
+        "status_downloading": "डाउनलोड हो रहा है...",
+        "status_ffmpeg": "फ़ाइल बनाई जा रही है...",
+        "status_canceled": "उपयोगकर्ता द्वारा डाउनलोड रद्द कर दिया गया।",
+        "status_noname": "अज्ञात नाम",
+        "error": "त्रुटि",
+        "error1": "डेटा लोड करने में विफल",
+        "error2": "डेटा पढ़ते समय त्रुटि",
+        "error3": "निर्दिष्ट फ़ोल्डर मौजूद नहीं है। पहले वीडियो डाउनलोड करें या फ़ोल्डर बनाएं।",
+        "openfoldertitle": "फ़ाइलें सहेजने के लिए फ़ोल्डर चुनें",
+        "pastefirst": "कृपया YouTube लिंक पेस्ट करें।",
+        "updatedialog": "YouTube Downloader का अपडेट उपलब्ध है।\nनवीनतम संस्करण स्थापित करने की अनुशंसा की जाती है, जिसमें सुधार और लाइब्रेरी अपडेट शामिल हैं।",
+        "updatebutton": "अपडेट करें",
+        "updatecancel": "बाद में",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "वीडियो डाउनलोड हो रहा है... ",
+        "status_downloading_audio": "ऑडियो डाउनलोड हो रहा है... "
+      },
+      "gui": {
+        "videolink": "वीडियो लिंक:",
+        "savelocation": "सहेजने का स्थान:",
+        "savemode": "डाउनलोड मोड:",
+        "quality": "गुणवत्ता:",
+        "extension": "प्रारूप:",
+        "audio": "ऑडियो",
+        "video": "वीडियो",
+        "options": "डाउनलोड सेटिंग्स:",
+        "onlyvideo": "केवल वीडियो (बिना ऑडियो के)",
+        "browse": "ब्राउज़ करें",
+        "open": "खोलें",
+        "max": "अधिकतम उपलब्ध",
+        "button_start": "डाउनलोड शुरू करें",
+        "button_cancel": "डाउनलोड रद्द करें",
+        "set": "सेटिंग्स / प्रोग्राम के बारे में",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "सेटिंग्स",
+        "back": "वापस",
+        "lang": "प्रोग्राम की भाषा",
+        "cred": "विचार और विकास:",
+        "credNik": "प्रोग्राम आइकन:",
+        "credthx": "विशेष धन्यवाद:",
+        "sitebutton": "आधिकारिक वेबसाइट",
+        "dlpcredit": "प्रोग्राम yt-dlp पर आधारित है",
+        "githubrepo": "GitHub रिपॉजिटरी"
+      }
     }
+  }
 }

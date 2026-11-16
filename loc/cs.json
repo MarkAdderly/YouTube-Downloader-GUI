@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Připraveno k práci.",
-                "status_info": "Načítání informací o videu...",
-                "status_preparing": "Příprava ke stahování...",
-                "status_done": "Hotovo! Soubor byl úspěšně uložen.",
-                "status_fetching": "Načítání: ",
-                "status_downloading": "Stahování...",
-                "status_ffmpeg": "Slučování / Převod audia FFmpeg...",
-                "status_canceled": "Stahování bylo zrušeno uživatelem.",
-                "status_noname": "Neznámý název",
-                "error": "Chyba",
-                "error1": "Nepodařilo se načíst data",
-                "error2": "Chyba při čtení dat",
-                "error3": "Zadaná složka neexistuje. Nejprve stáhněte video nebo vytvořte složku.",
-                "openfoldertitle": "Vyberte složku pro uložení souborů",
-                "pastefirst": "Prosím, vložte odkaz na YouTube.",
-                "updatedialog": "Je k dispozici aktualizace YT DLP GUI.\nDoporučuje se nainstalovat aktuální verzi, která obsahuje opravy a aktualizace knihoven.",
-                "updatebutton": "Aktualizovat",
-                "updatecancel": "Odložit"
-            },
-            "gui": {
-                "videolink": "Odkaz na video:",
-                "savelocation": "Umístění uložení:",
-                "savemode": "Režim stahování:",
-                "quality": "Kvalita:",
-                "extension": "Formát:",
-                "audio": "Audio",
-                "video": "Video",
-                "options": "Nastavení stahování:",
-                "onlyvideo": "Pouze video (bez zvuku)",
-                "browse": "Procházet",
-                "open": "Otevřít",
-                "max": "Maximální dostupné",
-                "button_start": "Spustit stahování",
-                "button_cancel": "Zrušit stahování",
-                "set": "Nastavení / O programu"
-            },
-            "settings": {
-                "label": "Nastavení",
-                "back": "Zpět",
-                "lang": "Jazyk programu",
-                "cred": "Nápad a vývoj:",
-                "credNik": "Ikona programu:",
-                "credthx": "Zvláštní poděkování:",
-                "sitebutton": "Oficiální web",
-                "dlpcredit": "Program je založen na yt-dlp",
-                "githubrepo": "Repozitář na GitHubu"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Připraveno k práci.",
+        "status_info": "Načítání informací o videu...",
+        "status_preparing": "Příprava ke stahování...",
+        "status_done": "Hotovo! Soubor byl úspěšně uložen.",
+        "status_fetching": "Načítání: ",
+        "status_downloading": "Stahování...",
+        "status_ffmpeg": "Vytváření souboru...",
+        "status_canceled": "Stahování bylo zrušeno uživatelem.",
+        "status_noname": "Neznámý název",
+        "error": "Chyba",
+        "error1": "Nepodařilo se načíst data",
+        "error2": "Chyba při čtení dat",
+        "error3": "Zadaná složka neexistuje. Nejprve stáhněte video nebo vytvořte složku.",
+        "openfoldertitle": "Vyberte složku pro uložení souborů",
+        "pastefirst": "Prosím, vložte odkaz na YouTube.",
+        "updatedialog": "Je k dispozici aktualizace YouTube Downloader.\nDoporučuje se nainstalovat aktuální verzi, která obsahuje opravy a aktualizace knihoven.",
+        "updatebutton": "Aktualizovat",
+        "updatecancel": "Odložit",
+        "ytdlp_update_dialog": "Je k dispozici nová verze knihovny yt-dlp ({0}). Aktualizovat nyní?\n\nVarování: odmítnutí aktualizace může způsobit nefunkčnost stahování videí.",
+        "ytdlp_update_title": "Aktualizace yt-dlp",
+        "ytdlp_downloading": "Stahování yt-dlp: ",
+        "ytdlp_done": "Knihovna yt-dlp byla úspěšně aktualizována!",
+        "ytdlp_error": "Aktualizace yt-dlp se nezdařila.",
+        "status_downloading_video": "Stahování videa... ",
+        "status_downloading_audio": "Stahování audia... "
+      },
+      "gui": {
+        "videolink": "Odkaz na video:",
+        "savelocation": "Umístění uložení:",
+        "savemode": "Režim stahování:",
+        "quality": "Kvalita:",
+        "extension": "Formát:",
+        "audio": "Audio",
+        "video": "Video",
+        "options": "Nastavení stahování:",
+        "onlyvideo": "Pouze video (bez zvuku)",
+        "browse": "Procházet",
+        "open": "Otevřít",
+        "max": "Maximální dostupné",
+        "button_start": "Spustit stahování",
+        "button_cancel": "Zrušit stahování",
+        "set": "Nastavení / O programu",
+        "update_ytdlp": "Instalovat aktualizaci",
+        "audio_orig": "Původní kvalita"
+      },
+      "settings": {
+        "label": "Nastavení",
+        "back": "Zpět",
+        "lang": "Jazyk programu",
+        "cred": "Nápad a vývoj:",
+        "credNik": "Ikona programu:",
+        "credthx": "Zvláštní poděkování:",
+        "sitebutton": "Oficiální web",
+        "dlpcredit": "Program je založen na yt-dlp",
+        "githubrepo": "Repozitář na GitHubu"
+      }
     }
+  }
 }

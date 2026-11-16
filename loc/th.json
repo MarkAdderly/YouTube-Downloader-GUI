@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "พร้อมใช้งาน",
-                "status_info": "กำลังโหลดข้อมูลวิดีโอ...",
-                "status_preparing": "กำลังเตรียมดาวน์โหลด...",
-                "status_done": "เสร็จสิ้น! บันทึกไฟล์เรียบร้อยแล้ว",
-                "status_fetching": "กำลังโหลด: ",
-                "status_downloading": "กำลังดาวน์โหลด...",
-                "status_ffmpeg": "กำลังรวมไฟล์ / แปลงไฟล์เสียงด้วย FFmpeg...",
-                "status_canceled": "ผู้ใช้ยกเลิกการดาวน์โหลด",
-                "status_noname": "ไม่ทราบชื่อ",
-                "error": "ข้อผิดพลาด",
-                "error1": "ไม่สามารถโหลดข้อมูลได้",
-                "error2": "เกิดข้อผิดพลาดขณะอ่านข้อมูล",
-                "error3": "ไม่พบโฟลเดอร์ที่ระบุ โปรดดาวน์โหลดวิดีโอก่อนหรือสร้างโฟลเดอร์",
-                "openfoldertitle": "เลือกโฟลเดอร์สำหรับบันทึกไฟล์",
-                "pastefirst": "กรุณาวางลิงก์ YouTube",
-                "updatedialog": "มีอัปเดตสำหรับ YT DLP GUI\nแนะนำให้ติดตั้งเวอร์ชันล่าสุดซึ่งมีการแก้ไขข้อผิดพลาดและอัปเดตไลบรารี",
-                "updatebutton": "อัปเดต",
-                "updatecancel": "ภายหลัง"
-            },
-            "gui": {
-                "videolink": "ลิงก์วิดีโอ:",
-                "savelocation": "ตำแหน่งที่บันทึก:",
-                "savemode": "โหมดการดาวน์โหลด:",
-                "quality": "คุณภาพ:",
-                "extension": "รูปแบบ:",
-                "audio": "เสียง",
-                "video": "วิดีโอ",
-                "options": "ตัวเลือกการดาวน์โหลด:",
-                "onlyvideo": "เฉพาะวิดีโอ (ไม่มีเสียง)",
-                "browse": "เรียกดู",
-                "open": "เปิด",
-                "max": "สูงสุดเท่าที่ทำได้",
-                "button_start": "เริ่มดาวน์โหลด",
-                "button_cancel": "ยกเลิกการดาวน์โหลด",
-                "set": "การตั้งค่า / เกี่ยวกับโปรแกรม"
-            },
-            "settings": {
-                "label": "การตั้งค่า",
-                "back": "ย้อนกลับ",
-                "lang": "ภาษาของโปรแกรม",
-                "cred": "แนวคิดและการพัฒนา:",
-                "credNik": "ไอคอนโปรแกรม:",
-                "credthx": "ขอขอบคุณเป็นพิเศษ:",
-                "sitebutton": "เว็บไซต์ทางการ",
-                "dlpcredit": "โปรแกรมนี้สร้างขึ้นโดยใช้ yt-dlp",
-                "githubrepo": "GitHub Repository"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "พร้อมใช้งาน",
+        "status_info": "กำลังโหลดข้อมูลวิดีโอ...",
+        "status_preparing": "กำลังเตรียมดาวน์โหลด...",
+        "status_done": "เสร็จสิ้น! บันทึกไฟล์เรียบร้อยแล้ว",
+        "status_fetching": "กำลังโหลด: ",
+        "status_downloading": "กำลังดาวน์โหลด...",
+        "status_ffmpeg": "กำลังสร้างไฟล์...",
+        "status_canceled": "ผู้ใช้ยกเลิกการดาวน์โหลด",
+        "status_noname": "ไม่ทราบชื่อ",
+        "error": "ข้อผิดพลาด",
+        "error1": "ไม่สามารถโหลดข้อมูลได้",
+        "error2": "เกิดข้อผิดพลาดขณะอ่านข้อมูล",
+        "error3": "ไม่พบโฟลเดอร์ที่ระบุ โปรดดาวน์โหลดวิดีโอก่อนหรือสร้างโฟลเดอร์",
+        "openfoldertitle": "เลือกโฟลเดอร์สำหรับบันทึกไฟล์",
+        "pastefirst": "กรุณาวางลิงก์ YouTube",
+        "updatedialog": "มีอัปเดตสำหรับ YouTube Downloader\nแนะนำให้ติดตั้งเวอร์ชันล่าสุดซึ่งมีการแก้ไขข้อผิดพลาดและอัปเดตไลบรารี",
+        "updatebutton": "อัปเดต",
+        "updatecancel": "ภายหลัง",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "กำลังดาวน์โหลดวิดีโอ... ",
+        "status_downloading_audio": "กำลังดาวน์โหลดเสียง... "
+      },
+      "gui": {
+        "videolink": "ลิงก์วิดีโอ:",
+        "savelocation": "ตำแหน่งที่บันทึก:",
+        "savemode": "โหมดการดาวน์โหลด:",
+        "quality": "คุณภาพ:",
+        "extension": "รูปแบบ:",
+        "audio": "เสียง",
+        "video": "วิดีโอ",
+        "options": "ตัวเลือกการดาวน์โหลด:",
+        "onlyvideo": "เฉพาะวิดีโอ (ไม่มีเสียง)",
+        "browse": "เรียกดู",
+        "open": "เปิด",
+        "max": "สูงสุดเท่าที่ทำได้",
+        "button_start": "เริ่มดาวน์โหลด",
+        "button_cancel": "ยกเลิกการดาวน์โหลด",
+        "set": "การตั้งค่า / เกี่ยวกับโปรแกรม",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "การตั้งค่า",
+        "back": "ย้อนกลับ",
+        "lang": "ภาษาของโปรแกรม",
+        "cred": "แนวคิดและการพัฒนา:",
+        "credNik": "ไอคอนโปรแกรม:",
+        "credthx": "ขอขอบคุณเป็นพิเศษ:",
+        "sitebutton": "เว็บไซต์ทางการ",
+        "dlpcredit": "โปรแกรมนี้สร้างขึ้นโดยใช้ yt-dlp",
+        "githubrepo": "GitHub Repository"
+      }
     }
+  }
 }

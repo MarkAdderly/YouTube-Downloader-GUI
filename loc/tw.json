@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "準備就緒。",
-                "status_info": "正在載入影片資訊...",
-                "status_preparing": "正在準備下載...",
-                "status_done": "完成！檔案已成功儲存。",
-                "status_fetching": "正在載入：",
-                "status_downloading": "正在下載...",
-                "status_ffmpeg": "正在使用 FFmpeg 合併 / 轉換音訊...",
-                "status_canceled": "下載已由使用者取消。",
-                "status_noname": "未知名稱",
-                "error": "錯誤",
-                "error1": "無法載入資料",
-                "error2": "讀取資料時發生錯誤",
-                "error3": "指定的資料夾不存在。請先下載影片或建立該資料夾。",
-                "openfoldertitle": "選擇檔案儲存資料夾",
-                "pastefirst": "請貼上 YouTube 連結。",
-                "updatedialog": "YT DLP GUI 有新版本可用。\n建議安裝最新版本，其中包含修復程式與函式庫更新。",
-                "updatebutton": "更新",
-                "updatecancel": "稍後再說"
-            },
-            "gui": {
-                "videolink": "影片連結：",
-                "savelocation": "儲存位置：",
-                "savemode": "下載模式：",
-                "quality": "畫質：",
-                "extension": "格式：",
-                "audio": "音訊",
-                "video": "影片",
-                "options": "下載設定：",
-                "onlyvideo": "僅影片（無音訊）",
-                "browse": "瀏覽",
-                "open": "開啟",
-                "max": "最高可用畫質",
-                "button_start": "開始下載",
-                "button_cancel": "取消下載",
-                "set": "設定 / 關於"
-            },
-            "settings": {
-                "label": "設定",
-                "back": "返回",
-                "lang": "程式語言",
-                "cred": "構思與開發：",
-                "credNik": "程式圖示：",
-                "credthx": "特別感謝：",
-                "sitebutton": "官方網站",
-                "dlpcredit": "本程式基於 yt-dlp 開發",
-                "githubrepo": "GitHub 儲存庫"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "準備就緒。",
+        "status_info": "正在載入影片資訊...",
+        "status_preparing": "正在準備下載...",
+        "status_done": "完成！檔案已成功儲存。",
+        "status_fetching": "正在載入：",
+        "status_downloading": "正在下載...",
+        "status_ffmpeg": "正在建立檔案...",
+        "status_canceled": "下載已由使用者取消。",
+        "status_noname": "未知名稱",
+        "error": "錯誤",
+        "error1": "無法載入資料",
+        "error2": "讀取資料時發生錯誤",
+        "error3": "指定的資料夾不存在。請先下載影片或建立該資料夾。",
+        "openfoldertitle": "選擇檔案儲存資料夾",
+        "pastefirst": "請貼上 YouTube 連結。",
+        "updatedialog": "YouTube Downloader 有新版本可用。\n建議安裝最新版本，其中包含修復程式與函式庫更新。",
+        "updatebutton": "更新",
+        "updatecancel": "稍後再說",
+        "ytdlp_update_dialog": "yt-dlp 函式庫有新版本可用 ({0})。是否立即更新？\n\n警告：拒絕更新可能會導致後續無法下載影片。",
+        "ytdlp_update_title": "yt-dlp 更新",
+        "ytdlp_downloading": "正在下載 yt-dlp: ",
+        "ytdlp_done": "yt-dlp 函式庫更新成功！",
+        "ytdlp_error": "更新 yt-dlp 失敗。",
+        "status_downloading_video": "正在下載影片... ",
+        "status_downloading_audio": "正在下載音訊... "
+      },
+      "gui": {
+        "videolink": "影片連結：",
+        "savelocation": "儲存位置：",
+        "savemode": "下載模式：",
+        "quality": "畫質：",
+        "extension": "格式：",
+        "audio": "音訊",
+        "video": "影片",
+        "options": "下載設定：",
+        "onlyvideo": "僅影片（無音訊）",
+        "browse": "瀏覽",
+        "open": "開啟",
+        "max": "最高可用畫質",
+        "button_start": "開始下載",
+        "button_cancel": "取消下載",
+        "set": "設定 / 關於",
+        "update_ytdlp": "安裝更新",
+        "audio_orig": "原始音質"
+      },
+      "settings": {
+        "label": "設定",
+        "back": "返回",
+        "lang": "程式語言",
+        "cred": "構思與開發：",
+        "credNik": "程式圖示：",
+        "credthx": "特別感謝：",
+        "sitebutton": "官方網站",
+        "dlpcredit": "本程式基於 yt-dlp 開發",
+        "githubrepo": "GitHub 儲存庫"
+      }
     }
+  }
 }

@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Valmis tööks.",
-                "status_info": "Video teabe laadimine...",
-                "status_preparing": "Allalaadimise ettevalmistamine...",
-                "status_done": "Valmis! Fail on edukalt salvestatud.",
-                "status_fetching": "Laadimine: ",
-                "status_downloading": "Allalaadimine...",
-                "status_ffmpeg": "FFmpeg heli ühendamine / konverteerimine...",
-                "status_canceled": "Kasutaja tühistas allalaadimise.",
-                "status_noname": "Tundmatu pealkiri",
-                "error": "Viga",
-                "error1": "Andmete laadimine ebaõnnestus",
-                "error2": "Viga andmete lugemisel",
-                "error3": "Määratud kausta pole olemas. Laadige esmalt video alla või looge kaust.",
-                "openfoldertitle": "Valige failide salvestamise kaust",
-                "pastefirst": "Palun sisestage YouTube'i link.",
-                "updatedialog": "YT DLP GUI värskendus on saadaval.\nSoovitatav on installida uusim versioon, mis sisaldab parandusi ja teekide värskendusi.",
-                "updatebutton": "Värskenda",
-                "updatecancel": "Lükka edasi"
-            },
-            "gui": {
-                "videolink": "Video link:",
-                "savelocation": "Salvestuskoht:",
-                "savemode": "Allalaadimisrežiim:",
-                "quality": "Kvaliteet:",
-                "extension": "Vorming:",
-                "audio": "Heli",
-                "video": "Video",
-                "options": "Allalaadimise seaded:",
-                "onlyvideo": "Ainult videopilt (helita)",
-                "browse": "Sirvi",
-                "open": "Ava",
-                "max": "Maksimaalselt saadaval",
-                "button_start": "Alusta allalaadimist",
-                "button_cancel": "Tühista allalaadimine",
-                "set": "Seaded / Teave"
-            },
-            "settings": {
-                "label": "Seaded",
-                "back": "Tagasi",
-                "lang": "Programmi keel",
-                "cred": "Idee ja arendus:",
-                "credNik": "Programmi ikoon:",
-                "credthx": "Erilised tänud:",
-                "sitebutton": "Ametlik veebisait",
-                "dlpcredit": "Programm põhineb yt-dlp-l",
-                "githubrepo": "GitHubi hoidla"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Valmis tööks.",
+        "status_info": "Video teabe laadimine...",
+        "status_preparing": "Allalaadimise ettevalmistamine...",
+        "status_done": "Valmis! Fail on edukalt salvestatud.",
+        "status_fetching": "Laadimine: ",
+        "status_downloading": "Allalaadimine...",
+        "status_ffmpeg": "Faili loomine...",
+        "status_canceled": "Kasutaja tühistas allalaadimise.",
+        "status_noname": "Tundmatu pealkiri",
+        "error": "Viga",
+        "error1": "Andmete laadimine ebaõnnestus",
+        "error2": "Viga andmete lugemisel",
+        "error3": "Määratud kausta pole olemas. Laadige esmalt video alla või looge kaust.",
+        "openfoldertitle": "Valige failide salvestamise kaust",
+        "pastefirst": "Palun sisestage YouTube'i link.",
+        "updatedialog": "YouTube Downloader värskendus on saadaval.\nSoovitatav on installida uusim versioon, mis sisaldab parandusi ja teekide värskendusi.",
+        "updatebutton": "Värskenda",
+        "updatecancel": "Lükka edasi",
+        "ytdlp_update_dialog": "Saadaval on yt-dlp teegi uus versioon ({0}). Kas uuendada kohe?\n\nHoiatus: uuendamisest keeldumine võib hiljem takistada videote allalaadimist.",
+        "ytdlp_update_title": "yt-dlp uuendus",
+        "ytdlp_downloading": "yt-dlp allalaadimine: ",
+        "ytdlp_done": "yt-dlp teek on edukalt uuendatud!",
+        "ytdlp_error": "yt-dlp uuendamine ebaõnnestus.",
+        "status_downloading_video": "Video allalaadimine... ",
+        "status_downloading_audio": "Heli allalaadimine... "
+      },
+      "gui": {
+        "videolink": "Video link:",
+        "savelocation": "Salvestuskoht:",
+        "savemode": "Allalaadimisrežiim:",
+        "quality": "Kvaliteet:",
+        "extension": "Vorming:",
+        "audio": "Heli",
+        "video": "Video",
+        "options": "Allalaadimise seaded:",
+        "onlyvideo": "Ainult videopilt (helita)",
+        "browse": "Sirvi",
+        "open": "Ava",
+        "max": "Maksimaalselt saadaval",
+        "button_start": "Alusta allalaadimist",
+        "button_cancel": "Tühista allalaadimine",
+        "set": "Seaded / Teave",
+        "update_ytdlp": "Paigalda uuendus",
+        "audio_orig": "Algne kvaliteet"
+      },
+      "settings": {
+        "label": "Seaded",
+        "back": "Tagasi",
+        "lang": "Programmi keel",
+        "cred": "Idee ja arendus:",
+        "credNik": "Programmi ikoon:",
+        "credthx": "Erilised tänud:",
+        "sitebutton": "Ametlik veebisait",
+        "dlpcredit": "Programm põhineb yt-dlp-l",
+        "githubrepo": "GitHubi hoidla"
+      }
     }
+  }
 }

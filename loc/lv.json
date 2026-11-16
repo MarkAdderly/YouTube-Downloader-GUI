@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Gatavs darbam.",
-                "status_info": "Notiek informācijas par video ielāde...",
-                "status_preparing": "Sagatavošanās lejupielādei...",
-                "status_done": "Gatavs! Fails veiksmīgi saglabāts.",
-                "status_fetching": "Ielāde: ",
-                "status_downloading": "Lejupielāde...",
-                "status_ffmpeg": "Audio apvienošana / konvertēšana ar FFmpeg...",
-                "status_canceled": "Lietotājs atcēla lejupielādi.",
-                "status_noname": "Nezināms nosaukums",
-                "error": "Kļūda",
-                "error1": "Neizdevās ielādēt datus",
-                "error2": "Kļūda nolasot datus",
-                "error3": "Norādītā mape neeksistē. Vispirms lejupielādējiet video vai izveidojiet mapi.",
-                "openfoldertitle": "Izvēlieties mapi failu saglabāšanai",
-                "pastefirst": "Lūdzu, ielīmējiet YouTube saiti.",
-                "updatedialog": "Ir pieejams YT DLP GUI atjauninājums.\nIeteicams instalēt jaunāko versiju, kas satur labojumus un bibliotēku atjauninājumus.",
-                "updatebutton": "Atjaunināt",
-                "updatecancel": "Atlikt"
-            },
-            "gui": {
-                "videolink": "Video saite:",
-                "savelocation": "Saglabāšanas vieta:",
-                "savemode": "Lejupielādes režīms:",
-                "quality": "Kvalitāte:",
-                "extension": "Formāts:",
-                "audio": "Audio",
-                "video": "Video",
-                "options": "Lejupielādes iestatījumi:",
-                "onlyvideo": "Tikai video (bez skaņas)",
-                "browse": "Pārlūkot",
-                "open": "Atvērt",
-                "max": "Maksimāli pieejamā",
-                "button_start": "Sākt lejupielādi",
-                "button_cancel": "Atcelt lejupielādi",
-                "set": "Iestatījumi / Par programmu"
-            },
-            "settings": {
-                "label": "Iestatījumi",
-                "back": "Atpakaļ",
-                "lang": "Programmas valoda",
-                "cred": "Ideja un izstrāde:",
-                "credNik": "Programmas ikona:",
-                "credthx": "Īpašs paldies:",
-                "sitebutton": "Oficiālā vietne",
-                "dlpcredit": "Programma balstīta uz yt-dlp",
-                "githubrepo": "GitHub repozitorijs"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Gatavs darbam.",
+        "status_info": "Notiek informācijas par video ielāde...",
+        "status_preparing": "Sagatavošanās lejupielādei...",
+        "status_done": "Gatavs! Fails veiksmīgi saglabāts.",
+        "status_fetching": "Ielāde: ",
+        "status_downloading": "Lejupielāde...",
+        "status_ffmpeg": "Faila izveide...",
+        "status_canceled": "Lietotājs atcēla lejupielādi.",
+        "status_noname": "Nezināms nosaukums",
+        "error": "Kļūda",
+        "error1": "Neizdevās ielādēt datus",
+        "error2": "Kļūda nolasot datus",
+        "error3": "Norādītā mape neeksistē. Vispirms lejupielādējiet video vai izveidojiet mapi.",
+        "openfoldertitle": "Izvēlieties mapi failu saglabāšanai",
+        "pastefirst": "Lūdzu, ielīmējiet YouTube saiti.",
+        "updatedialog": "Ir pieejams YouTube Downloader atjauninājums.\nIeteicams instalēt jaunāko versiju, kas satur labojumus un bibliotēku atjauninājumus.",
+        "updatebutton": "Atjaunināt",
+        "updatecancel": "Atlikt",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "Video lejupielāde... ",
+        "status_downloading_audio": "Audio lejupielāde... "
+      },
+      "gui": {
+        "videolink": "Video saite:",
+        "savelocation": "Saglabāšanas vieta:",
+        "savemode": "Lejupielādes režīms:",
+        "quality": "Kvalitāte:",
+        "extension": "Formāts:",
+        "audio": "Audio",
+        "video": "Video",
+        "options": "Lejupielādes iestatījumi:",
+        "onlyvideo": "Tikai video (bez skaņas)",
+        "browse": "Pārlūkot",
+        "open": "Atvērt",
+        "max": "Maksimāli pieejamā",
+        "button_start": "Sākt lejupielādi",
+        "button_cancel": "Atcelt lejupielādi",
+        "set": "Iestatījumi / Par programmu",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "Iestatījumi",
+        "back": "Atpakaļ",
+        "lang": "Programmas valoda",
+        "cred": "Ideja un izstrāde:",
+        "credNik": "Programmas ikona:",
+        "credthx": "Īpašs paldies:",
+        "sitebutton": "Oficiālā vietne",
+        "dlpcredit": "Programma balstīta uz yt-dlp",
+        "githubrepo": "GitHub repozitorijs"
+      }
     }
+  }
 }

@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Valmis toimimaan.",
-                "status_info": "Ladataan videotietoja...",
-                "status_preparing": "Valmistellaan latausta...",
-                "status_done": "Valmis! Tiedosto tallennettu onnistuneesti.",
-                "status_fetching": "Ladataan: ",
-                "status_downloading": "Ladataan...",
-                "status_ffmpeg": "Yhdistetään / Muunnetaan ääntä FFmpegillä...",
-                "status_canceled": "Käyttäjä peruutti latauksen.",
-                "status_noname": "Tuntematon nimi",
-                "error": "Virhe",
-                "error1": "Tietojen lataaminen epäonnistui",
-                "error2": "Virhe tietoja luettaessa",
-                "error3": "Määritettyä kansiota ei ole olemassa. Lataa video ensin tai luo kansio.",
-                "openfoldertitle": "Valitse kansio tiedostojen tallennusta varten",
-                "pastefirst": "Liitä YouTube-linkki.",
-                "updatedialog": "YT DLP GUI -päivitys on saatavilla.\nOn suositeltavaa asentaa uusin versio, joka sisältää korjauksia ja kirjastopäivityksiä.",
-                "updatebutton": "Päivitä",
-                "updatecancel": "Myöhemmin"
-            },
-            "gui": {
-                "videolink": "Videolinkki:",
-                "savelocation": "Tallennussijainti:",
-                "savemode": "Lataustila:",
-                "quality": "Laatu:",
-                "extension": "Muoto:",
-                "audio": "Audio",
-                "video": "Video",
-                "options": "Latausasetukset:",
-                "onlyvideo": "Vain videoraita (ei ääntä)",
-                "browse": "Selaa",
-                "open": "Avaa",
-                "max": "Korkein mahdollinen",
-                "button_start": "Aloita lataus",
-                "button_cancel": "Peruuta lataus",
-                "set": "Asetukset / Tietoja"
-            },
-            "settings": {
-                "label": "Asetukset",
-                "back": "Takaisin",
-                "lang": "Ohjelman kieli",
-                "cred": "Idea ja kehitys:",
-                "credNik": "Ohjelman kuvake:",
-                "credthx": "Erityiskiitokset:",
-                "sitebutton": "Virallinen sivusto",
-                "dlpcredit": "Ohjelma perustuu yt-dlp:hen",
-                "githubrepo": "GitHub-arkisto"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Valmis toimimaan.",
+        "status_info": "Ladataan videotietoja...",
+        "status_preparing": "Valmistellaan latausta...",
+        "status_done": "Valmis! Tiedosto tallennettu onnistuneesti.",
+        "status_fetching": "Ladataan: ",
+        "status_downloading": "Ladataan...",
+        "status_ffmpeg": "Luodaan tiedostoa...",
+        "status_canceled": "Käyttäjä peruutti latauksen.",
+        "status_noname": "Tuntematon nimi",
+        "error": "Virhe",
+        "error1": "Tietojen lataaminen epäonnistui",
+        "error2": "Virhe tietoja luettaessa",
+        "error3": "Määritettyä kansiota ei ole olemassa. Lataa video ensin tai luo kansio.",
+        "openfoldertitle": "Valitse kansio tiedostojen tallennusta varten",
+        "pastefirst": "Liitä YouTube-linkki.",
+        "updatedialog": "YouTube Downloader -päivitys on saatavilla.\nOn suositeltavaa asentaa uusin versio, joka sisältää korjauksia ja kirjastopäivityksiä.",
+        "updatebutton": "Päivitä",
+        "updatecancel": "Myöhemmin",
+        "ytdlp_update_dialog": "Uusi yt-dlp-kirjaston versio on saatavilla ({0}). Päivitetäänkö nyt?\n\nVaroitus: päivityksen hylkääminen voi estää videoiden lataamisen.",
+        "ytdlp_update_title": "yt-dlp-päivitys",
+        "ytdlp_downloading": "Ladataan yt-dlp: ",
+        "ytdlp_done": "yt-dlp-kirjasto päivitettiin onnistuneesti!",
+        "ytdlp_error": "yt-dlp-kirjaston päivitys epäonnistui.",
+        "status_downloading_video": "Ladataan videota... ",
+        "status_downloading_audio": "Ladataan ääntä... "
+      },
+      "gui": {
+        "videolink": "Videolinkki:",
+        "savelocation": "Tallennussijainti:",
+        "savemode": "Lataustila:",
+        "quality": "Laatu:",
+        "extension": "Muoto:",
+        "audio": "Audio",
+        "video": "Video",
+        "options": "Latausasetukset:",
+        "onlyvideo": "Vain videoraita (ei ääntä)",
+        "browse": "Selaa",
+        "open": "Avaa",
+        "max": "Korkein mahdollinen",
+        "button_start": "Aloita lataus",
+        "button_cancel": "Peruuta lataus",
+        "set": "Asetukset / Tietoja",
+        "update_ytdlp": "Asenna päivitys",
+        "audio_orig": "Alkuperäinen laatu"
+      },
+      "settings": {
+        "label": "Asetukset",
+        "back": "Takaisin",
+        "lang": "Ohjelman kieli",
+        "cred": "Idea ja kehitys:",
+        "credNik": "Ohjelman kuvake:",
+        "credthx": "Erityiskiitokset:",
+        "sitebutton": "Virallinen sivusto",
+        "dlpcredit": "Ohjelma perustuu yt-dlp:hen",
+        "githubrepo": "GitHub-arkisto"
+      }
     }
+  }
 }

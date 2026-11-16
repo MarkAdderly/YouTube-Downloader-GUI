@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Pripravené na prácu.",
-                "status_info": "Načítavanie informácií o videu...",
-                "status_preparing": "Príprava na sťahovanie...",
-                "status_done": "Hotovo! Súbor bol úspešne uložený.",
-                "status_fetching": "Načítavanie: ",
-                "status_downloading": "Sťahovanie...",
-                "status_ffmpeg": "Zlučovanie / Konverzia zvuku FFmpeg...",
-                "status_canceled": "Sťahovanie zrušené používateľom.",
-                "status_noname": "Neznámy názov",
-                "error": "Chyba",
-                "error1": "Nepodarilo sa načítať údaje",
-                "error2": "Chyba pri čítaní údajov",
-                "error3": "Zadaný priečinok neexistuje. Najprv stiahnite video alebo vytvorte priečinok.",
-                "openfoldertitle": "Vyberte priečinok na uloženie súborov",
-                "pastefirst": "Prosím, vložte odkaz na YouTube.",
-                "updatedialog": "Je k dispozícii aktualizácia YT DLP GUI.\nOdporúča sa nainštalovať aktuálnu verziu, ktorá obsahuje opravy a aktualizácie knižníc.",
-                "updatebutton": "Aktualizovať",
-                "updatecancel": "Odložiť"
-            },
-            "gui": {
-                "videolink": "Odkaz na video:",
-                "savelocation": "Umiestnenie uloženia:",
-                "savemode": "Režim sťahovania:",
-                "quality": "Kvalita:",
-                "extension": "Formát:",
-                "audio": "Zvuk",
-                "video": "Video",
-                "options": "Nastavenia sťahovania:",
-                "onlyvideo": "Iba video (bez zvuku)",
-                "browse": "Prehľadávať",
-                "open": "Otvoriť",
-                "max": "Maximálne dostupné",
-                "button_start": "Spustiť sťahovanie",
-                "button_cancel": "Zrušiť sťahovanie",
-                "set": "Nastavenia / O programe"
-            },
-            "settings": {
-                "label": "Nastavenia",
-                "back": "Späť",
-                "lang": "Jazyk programu",
-                "cred": "Nápad a vývoj:",
-                "credNik": "Ikona programu:",
-                "credthx": "Osobitné poďakovanie:",
-                "sitebutton": "Oficiálna stránka",
-                "dlpcredit": "Program je založený na yt-dlp",
-                "githubrepo": "Repozitár na GitHub"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Pripravené na prácu.",
+        "status_info": "Načítavanie informácií o videu...",
+        "status_preparing": "Príprava na sťahovanie...",
+        "status_done": "Hotovo! Súbor bol úspešne uložený.",
+        "status_fetching": "Načítavanie: ",
+        "status_downloading": "Sťahovanie...",
+        "status_ffmpeg": "Vytváranie súboru...",
+        "status_canceled": "Sťahovanie zrušené používateľom.",
+        "status_noname": "Neznámy názov",
+        "error": "Chyba",
+        "error1": "Nepodarilo sa načítať údaje",
+        "error2": "Chyba pri čítaní údajov",
+        "error3": "Zadaný priečinok neexistuje. Najprv stiahnite video alebo vytvorte priečinok.",
+        "openfoldertitle": "Vyberte priečinok na uloženie súborov",
+        "pastefirst": "Prosím, vložte odkaz na YouTube.",
+        "updatedialog": "Je k dispozícii aktualizácia YouTube Downloader.\nOdporúča sa nainštalovať aktuálnu verziu, ktorá obsahuje opravy a aktualizácie knižníc.",
+        "updatebutton": "Aktualizovať",
+        "updatecancel": "Odložiť",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "Sťahovanie videa... ",
+        "status_downloading_audio": "Sťahovanie zvuku... "
+      },
+      "gui": {
+        "videolink": "Odkaz na video:",
+        "savelocation": "Umiestnenie uloženia:",
+        "savemode": "Režim sťahovania:",
+        "quality": "Kvalita:",
+        "extension": "Formát:",
+        "audio": "Zvuk",
+        "video": "Video",
+        "options": "Nastavenia sťahovania:",
+        "onlyvideo": "Iba video (bez zvuku)",
+        "browse": "Prehľadávať",
+        "open": "Otvoriť",
+        "max": "Maximálne dostupné",
+        "button_start": "Spustiť sťahovanie",
+        "button_cancel": "Zrušiť sťahovanie",
+        "set": "Nastavenia / O programe",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "Nastavenia",
+        "back": "Späť",
+        "lang": "Jazyk programu",
+        "cred": "Nápad a vývoj:",
+        "credNik": "Ikona programu:",
+        "credthx": "Osobitné poďakovanie:",
+        "sitebutton": "Oficiálna stránka",
+        "dlpcredit": "Program je založený na yt-dlp",
+        "githubrepo": "Repozitár na GitHub"
+      }
     }
+  }
 }

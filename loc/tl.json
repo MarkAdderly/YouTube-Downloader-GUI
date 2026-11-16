@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Handa na para sa trabaho.",
-                "status_info": "Naglo-load ng impormasyon ng video...",
-                "status_preparing": "Inihahanda ang pag-download...",
-                "status_done": "Tapos na! Matagumpay na na-save ang file.",
-                "status_fetching": "Naglo-load: ",
-                "status_downloading": "Nagda-download...",
-                "status_ffmpeg": "Pinagsasama / Kino-convert ang audio gamit ang FFmpeg...",
-                "status_canceled": "Kinansela ng user ang pag-download.",
-                "status_noname": "Hindi kilalang pamagat",
-                "error": "Error",
-                "error1": "Hindi ma-load ang data",
-                "error2": "Error sa pagbasa ng data",
-                "error3": "Hindi umiiral ang tinukoy na folder. Mag-download muna ng video o gumawa ng folder.",
-                "openfoldertitle": "Pumili ng folder para i-save ang mga file",
-                "pastefirst": "Mangyaring i-paste ang link ng YouTube.",
-                "updatedialog": "May available na update para sa YT DLP GUI.\nInirerekomenda na i-install ang pinakabagong bersyon na naglalaman ng mga pag-aayos at update sa library.",
-                "updatebutton": "I-update",
-                "updatecancel": "I-postpone"
-            },
-            "gui": {
-                "videolink": "Link ng video:",
-                "savelocation": "Lokasyon ng pag-save:",
-                "savemode": "Mode ng pag-download:",
-                "quality": "Kalidad:",
-                "extension": "Format:",
-                "audio": "Audio",
-                "video": "Video",
-                "options": "Mga setting ng pag-download:",
-                "onlyvideo": "Video lang (walang audio)",
-                "browse": "I-browse",
-                "open": "Buksan",
-                "max": "Pinakamataas na available",
-                "button_start": "Simulan ang pag-download",
-                "button_cancel": "Kanselahin ang pag-download",
-                "set": "Mga Setting / Tungkol sa"
-            },
-            "settings": {
-                "label": "Mga Setting",
-                "back": "Bumalik",
-                "lang": "Wika ng programa",
-                "cred": "Ideya at pagbuo:",
-                "credNik": "Icon ng programa:",
-                "credthx": "Espesyal na pasasalamat:",
-                "sitebutton": "Opisyal na website",
-                "dlpcredit": "Ang programa ay base sa yt-dlp",
-                "githubrepo": "Repository sa GitHub"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Handa na para sa trabaho.",
+        "status_info": "Naglo-load ng impormasyon ng video...",
+        "status_preparing": "Inihahanda ang pag-download...",
+        "status_done": "Tapos na! Matagumpay na na-save ang file.",
+        "status_fetching": "Naglo-load: ",
+        "status_downloading": "Nagda-download...",
+        "status_ffmpeg": "Gumagawa ng file...",
+        "status_canceled": "Kinansela ng user ang pag-download.",
+        "status_noname": "Hindi kilalang pamagat",
+        "error": "Error",
+        "error1": "Hindi ma-load ang data",
+        "error2": "Error sa pagbasa ng data",
+        "error3": "Hindi umiiral ang tinukoy na folder. Mag-download muna ng video o gumawa ng folder.",
+        "openfoldertitle": "Pumili ng folder para i-save ang mga file",
+        "pastefirst": "Mangyaring i-paste ang link ng YouTube.",
+        "updatedialog": "May available na update para sa YouTube Downloader.\nInirerekomenda na i-install ang pinakabagong bersyon na naglalaman ng mga pag-aayos at update sa library.",
+        "updatebutton": "I-update",
+        "updatecancel": "I-postpone",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "Nagda-download ng video... ",
+        "status_downloading_audio": "Nagda-download ng audio... "
+      },
+      "gui": {
+        "videolink": "Link ng video:",
+        "savelocation": "Lokasyon ng pag-save:",
+        "savemode": "Mode ng pag-download:",
+        "quality": "Kalidad:",
+        "extension": "Format:",
+        "audio": "Audio",
+        "video": "Video",
+        "options": "Mga setting ng pag-download:",
+        "onlyvideo": "Video lang (walang audio)",
+        "browse": "I-browse",
+        "open": "Buksan",
+        "max": "Pinakamataas na available",
+        "button_start": "Simulan ang pag-download",
+        "button_cancel": "Kanselahin ang pag-download",
+        "set": "Mga Setting / Tungkol sa",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "Mga Setting",
+        "back": "Bumalik",
+        "lang": "Wika ng programa",
+        "cred": "Ideya at pagbuo:",
+        "credNik": "Icon ng programa:",
+        "credthx": "Espesyal na pasasalamat:",
+        "sitebutton": "Opisyal na website",
+        "dlpcredit": "Ang programa ay base sa yt-dlp",
+        "githubrepo": "Repository sa GitHub"
+      }
     }
+  }
 }

@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Gotowy do pracy.",
-                "status_info": "Pobieranie informacji o wideo...",
-                "status_preparing": "Przygotowywanie do pobierania...",
-                "status_done": "Gotowe! Plik został pomyślnie zapisany.",
-                "status_fetching": "Pobieranie: ",
-                "status_downloading": "Pobieranie...",
-                "status_ffmpeg": "Łączenie / Konwersja audio FFmpeg...",
-                "status_canceled": "Pobieranie anulowane przez użytkownika.",
-                "status_noname": "Nieznana nazwa",
-                "error": "Błąd",
-                "error1": "Nie udało się pobrać danych",
-                "error2": "Błąd podczas odczytu danych",
-                "error3": "Wskazany folder nie istnieje. Najpierw pobierz wideo lub utwórz folder.",
-                "openfoldertitle": "Wybierz folder do zapisu plików",
-                "pastefirst": "Proszę wkleić link do YouTube.",
-                "updatedialog": "Dostępna jest aktualizacja YT DLP GUI.\nZaleca się zainstalowanie aktualnej wersji, która zawiera poprawki i aktualizacje bibliotek.",
-                "updatebutton": "Aktualizuj",
-                "updatecancel": "Później"
-            },
-            "gui": {
-                "videolink": "Link do wideo:",
-                "savelocation": "Lokalizacja zapisu:",
-                "savemode": "Tryb pobierania:",
-                "quality": "Jakość:",
-                "extension": "Format:",
-                "audio": "Audio",
-                "video": "Wideo",
-                "options": "Opcje pobierania:",
-                "onlyvideo": "Tylko obraz (bez dźwięku)",
-                "browse": "Przeglądaj",
-                "open": "Otwórz",
-                "max": "Maksymalna dostępna",
-                "button_start": "Rozpocznij pobieranie",
-                "button_cancel": "Anuluj pobieranie",
-                "set": "Ustawienia / O programie"
-            },
-            "settings": {
-                "label": "Ustawienia",
-                "back": "Wstecz",
-                "lang": "Język programu",
-                "cred": "Pomysł i rozwój:",
-                "credNik": "Ikona programu:",
-                "credthx": "Specjalne podziękowania:",
-                "sitebutton": "Oficjalna strona",
-                "dlpcredit": "Program oparty na yt-dlp",
-                "githubrepo": "Repozytorium na GitHub"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Gotowy do pracy.",
+        "status_info": "Pobieranie informacji o wideo...",
+        "status_preparing": "Przygotowywanie do pobierania...",
+        "status_done": "Gotowe! Plik został pomyślnie zapisany.",
+        "status_fetching": "Pobieranie: ",
+        "status_downloading": "Pobieranie...",
+        "status_ffmpeg": "Tworzenie pliku...",
+        "status_canceled": "Pobieranie anulowane przez użytkownika.",
+        "status_noname": "Nieznana nazwa",
+        "error": "Błąd",
+        "error1": "Nie udało się pobrać danych",
+        "error2": "Błąd podczas odczytu danych",
+        "error3": "Wskazany folder nie istnieje. Najpierw pobierz wideo lub utwórz folder.",
+        "openfoldertitle": "Wybierz folder do zapisu plików",
+        "pastefirst": "Proszę wkleić link do YouTube.",
+        "updatedialog": "Dostępna jest aktualizacja YouTube Downloader.\nZaleca się zainstalowanie aktualnej wersji, która zawiera poprawki i aktualizacje bibliotek.",
+        "updatebutton": "Aktualizuj",
+        "updatecancel": "Później",
+        "ytdlp_update_dialog": "Dostępna jest nowa wersja biblioteki yt-dlp ({0}). Zaktualizować teraz?\n\nUwaga: odmowa aktualizacji może później uniemożliwić pobieranie filmów.",
+        "ytdlp_update_title": "Aktualizacja yt-dlp",
+        "ytdlp_downloading": "Pobieranie yt-dlp: ",
+        "ytdlp_done": "Biblioteka yt-dlp została pomyślnie zaktualizowana!",
+        "ytdlp_error": "Nie udało się zaktualizować yt-dlp.",
+        "status_downloading_video": "Pobieranie wideo... ",
+        "status_downloading_audio": "Pobieranie audio... "
+      },
+      "gui": {
+        "videolink": "Link do wideo:",
+        "savelocation": "Lokalizacja zapisu:",
+        "savemode": "Tryb pobierania:",
+        "quality": "Jakość:",
+        "extension": "Format:",
+        "audio": "Audio",
+        "video": "Wideo",
+        "options": "Opcje pobierania:",
+        "onlyvideo": "Tylko obraz (bez dźwięku)",
+        "browse": "Przeglądaj",
+        "open": "Otwórz",
+        "max": "Maksymalna dostępna",
+        "button_start": "Rozpocznij pobieranie",
+        "button_cancel": "Anuluj pobieranie",
+        "set": "Ustawienia / O programie",
+        "update_ytdlp": "Zainstaluj aktualizację",
+        "audio_orig": "Oryginalna jakość"
+      },
+      "settings": {
+        "label": "Ustawienia",
+        "back": "Wstecz",
+        "lang": "Język programu",
+        "cred": "Pomysł i rozwój:",
+        "credNik": "Ikona programu:",
+        "credthx": "Specjalne podziękowania:",
+        "sitebutton": "Oficjalna strona",
+        "dlpcredit": "Program oparty na yt-dlp",
+        "githubrepo": "Repozytorium na GitHub"
+      }
     }
+  }
 }

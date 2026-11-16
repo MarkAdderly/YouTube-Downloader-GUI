@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Жұмысқа дайын.",
-                "status_info": "Бейне туралы ақпарат жүктелуде...",
-                "status_preparing": "Жүктеп алуға дайындалуда...",
-                "status_done": "Дайын! Файл сәтті сақталды.",
-                "status_fetching": "Жүктелуде: ",
-                "status_downloading": "Жүктеп алынуда...",
-                "status_ffmpeg": "FFmpeg арқылы аудионы біріктіру / түрлендіру...",
-                "status_canceled": "Жүктеу пайдаланушы тарапынан тоқтатылды.",
-                "status_noname": "Белгісіз атау",
-                "error": "Қате",
-                "error1": "Деректерді жүктеу мүмкін болмады",
-                "error2": "Деректерді оқу кезіндегі қате",
-                "error3": "Көрсетілген қалта жоқ. Алдымен бейнені жүктеп алыңыз немесе қалтаны жасаңыз.",
-                "openfoldertitle": "Файлдарды сақтау үшін қалтаны таңдаңыз",
-                "pastefirst": "YouTube сілтемесін қойыңыз.",
-                "updatedialog": "YT DLP GUI жаңартуы қолжетімді.\nТүзетулер мен кітапхана жаңартуларын қамтитын соңғы нұсқаны орнату ұсынылады.",
-                "updatebutton": "Жаңарту",
-                "updatecancel": "Кейінге қалдыру"
-            },
-            "gui": {
-                "videolink": "Бейне сілтемесі:",
-                "savelocation": "Сақтау орны:",
-                "savemode": "Жүктеу режимі:",
-                "quality": "Сапасы:",
-                "extension": "Пішімі:",
-                "audio": "Аудио",
-                "video": "Бейне",
-                "options": "Жүктеу параметрлері:",
-                "onlyvideo": "Тек бейнеқатар (дыбыссыз)",
-                "browse": "Шолу",
-                "open": "Ашу",
-                "max": "Ең жоғары қолжетімді",
-                "button_start": "Жүктеуді бастау",
-                "button_cancel": "Жүктеуді тоқтату",
-                "set": "Параметрлер / Бағдарлама туралы"
-            },
-            "settings": {
-                "label": "Параметрлер",
-                "back": "Артқа",
-                "lang": "Бағдарлама тілі",
-                "cred": "Идея және әзірлеу:",
-                "credNik": "Бағдарлама белгішесі:",
-                "credthx": "Ерекше алғыс:",
-                "sitebutton": "Ресми сайт",
-                "dlpcredit": "Бағдарлама yt-dlp негізінде жасалған",
-                "githubrepo": "GitHub репозиторийі"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Жұмысқа дайын.",
+        "status_info": "Бейне туралы ақпарат жүктелуде...",
+        "status_preparing": "Жүктеп алуға дайындалуда...",
+        "status_done": "Дайын! Файл сәтті сақталды.",
+        "status_fetching": "Жүктелуде: ",
+        "status_downloading": "Жүктеп алынуда...",
+        "status_ffmpeg": "Файлды жасау...",
+        "status_canceled": "Жүктеу пайдаланушы тарапынан тоқтатылды.",
+        "status_noname": "Белгісіз атау",
+        "error": "Қате",
+        "error1": "Деректерді жүктеу мүмкін болмады",
+        "error2": "Деректерді оқу кезіндегі қате",
+        "error3": "Көрсетілген қалта жоқ. Алдымен бейнені жүктеп алыңыз немесе қалтаны жасаңыз.",
+        "openfoldertitle": "Файлдарды сақтау үшін қалтаны таңдаңыз",
+        "pastefirst": "YouTube сілтемесін қойыңыз.",
+        "updatedialog": "YouTube Downloader жаңартуы қолжетімді.\nТүзетулер мен кітапхана жаңартуларын қамтитын соңғы нұсқаны орнату ұсынылады.",
+        "updatebutton": "Жаңарту",
+        "updatecancel": "Кейінге қалдыру",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "Бейне жүктелуде... ",
+        "status_downloading_audio": "Аудио жүктелуде... "
+      },
+      "gui": {
+        "videolink": "Бейне сілтемесі:",
+        "savelocation": "Сақтау орны:",
+        "savemode": "Жүктеу режимі:",
+        "quality": "Сапасы:",
+        "extension": "Пішімі:",
+        "audio": "Аудио",
+        "video": "Бейне",
+        "options": "Жүктеу параметрлері:",
+        "onlyvideo": "Тек бейнеқатар (дыбыссыз)",
+        "browse": "Шолу",
+        "open": "Ашу",
+        "max": "Ең жоғары қолжетімді",
+        "button_start": "Жүктеуді бастау",
+        "button_cancel": "Жүктеуді тоқтату",
+        "set": "Параметрлер / Бағдарлама туралы",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "Параметрлер",
+        "back": "Артқа",
+        "lang": "Бағдарлама тілі",
+        "cred": "Идея және әзірлеу:",
+        "credNik": "Бағдарлама белгішесі:",
+        "credthx": "Ерекше алғыс:",
+        "sitebutton": "Ресми сайт",
+        "dlpcredit": "Бағдарлама yt-dlp негізінде жасалған",
+        "githubrepo": "GitHub репозиторийі"
+      }
     }
+  }
 }

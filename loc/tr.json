@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Çalışmaya hazır.",
-                "status_info": "Video bilgileri yükleniyor...",
-                "status_preparing": "İndirme hazırlanıyor...",
-                "status_done": "Tamamlandı! Dosya başarıyla kaydedildi.",
-                "status_fetching": "Yükleniyor: ",
-                "status_downloading": "İndiriliyor...",
-                "status_ffmpeg": "FFmpeg ile ses birleştirme / dönüştürme...",
-                "status_canceled": "İndirme kullanıcı tarafından iptal edildi.",
-                "status_noname": "Bilinmeyen başlık",
-                "error": "Hata",
-                "error1": "Veriler yüklenemedi",
-                "error2": "Veri okuma hatası",
-                "error3": "Belirtilen klasör mevcut değil. Lütfen önce videoyu indirin veya klasörü oluşturun.",
-                "openfoldertitle": "Dosyaları kaydetmek için bir klasör seçin",
-                "pastefirst": "Lütfen bir YouTube bağlantısı yapıştırın.",
-                "updatedialog": "YT DLP GUI için bir güncelleme mevcut.\nHataları gideren ve kütüphaneleri güncelleyen en son sürümü yüklemeniz önerilir.",
-                "updatebutton": "Güncelle",
-                "updatecancel": "Ertele"
-            },
-            "gui": {
-                "videolink": "Video bağlantısı:",
-                "savelocation": "Kaydetme konumu:",
-                "savemode": "İndirme modu:",
-                "quality": "Kalite:",
-                "extension": "Format:",
-                "audio": "Ses",
-                "video": "Video",
-                "options": "İndirme ayarları:",
-                "onlyvideo": "Sadece video (ses yok)",
-                "browse": "Gözat",
-                "open": "Aç",
-                "max": "Maksimum kullanılabilir",
-                "button_start": "İndirmeyi başlat",
-                "button_cancel": "İndirmeyi iptal et",
-                "set": "Ayarlar / Hakkında"
-            },
-            "settings": {
-                "label": "Ayarlar",
-                "back": "Geri",
-                "lang": "Program dili",
-                "cred": "Fikir ve geliştirme:",
-                "credNik": "Program simgesi:",
-                "credthx": "Özel teşekkürler:",
-                "sitebutton": "Resmi web sitesi",
-                "dlpcredit": "Program yt-dlp tabanlıdır",
-                "githubrepo": "GitHub deposu"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Çalışmaya hazır.",
+        "status_info": "Video bilgileri yükleniyor...",
+        "status_preparing": "İndirme hazırlanıyor...",
+        "status_done": "Tamamlandı! Dosya başarıyla kaydedildi.",
+        "status_fetching": "Yükleniyor: ",
+        "status_downloading": "İndiriliyor...",
+        "status_ffmpeg": "Dosya oluşturuluyor...",
+        "status_canceled": "İndirme kullanıcı tarafından iptal edildi.",
+        "status_noname": "Bilinmeyen başlık",
+        "error": "Hata",
+        "error1": "Veriler yüklenemedi",
+        "error2": "Veri okuma hatası",
+        "error3": "Belirtilen klasör mevcut değil. Lütfen önce videoyu indirin veya klasörü oluşturun.",
+        "openfoldertitle": "Dosyaları kaydetmek için bir klasör seçin",
+        "pastefirst": "Lütfen bir YouTube bağlantısı yapıştırın.",
+        "updatedialog": "YouTube Downloader için bir güncelleme mevcut.\nHataları gideren ve kütüphaneleri güncelleyen en son sürümü yüklemeniz önerilir.",
+        "updatebutton": "Güncelle",
+        "updatecancel": "Ertele",
+        "ytdlp_update_dialog": "yt-dlp kütüphanesinin yeni bir sürümü mevcut ({0}). Şimdi güncellensin mi?\n\nUyarı: güncellemeyi reddetmek daha sonra video indirmeyi bozabilir.",
+        "ytdlp_update_title": "yt-dlp Güncellemesi",
+        "ytdlp_downloading": "yt-dlp indiriliyor: ",
+        "ytdlp_done": "yt-dlp kütüphanesi başarıyla güncellendi!",
+        "ytdlp_error": "yt-dlp güncellenemedi.",
+        "status_downloading_video": "Video indiriliyor... ",
+        "status_downloading_audio": "Ses indiriliyor... "
+      },
+      "gui": {
+        "videolink": "Video bağlantısı:",
+        "savelocation": "Kaydetme konumu:",
+        "savemode": "İndirme modu:",
+        "quality": "Kalite:",
+        "extension": "Format:",
+        "audio": "Ses",
+        "video": "Video",
+        "options": "İndirme ayarları:",
+        "onlyvideo": "Sadece video (ses yok)",
+        "browse": "Gözat",
+        "open": "Aç",
+        "max": "Maksimum kullanılabilir",
+        "button_start": "İndirmeyi başlat",
+        "button_cancel": "İndirmeyi iptal et",
+        "set": "Ayarlar / Hakkında",
+        "update_ytdlp": "Güncellemeyi Yükle",
+        "audio_orig": "Orijinal Kalite"
+      },
+      "settings": {
+        "label": "Ayarlar",
+        "back": "Geri",
+        "lang": "Program dili",
+        "cred": "Fikir ve geliştirme:",
+        "credNik": "Program simgesi:",
+        "credthx": "Özel teşekkürler:",
+        "sitebutton": "Resmi web sitesi",
+        "dlpcredit": "Program yt-dlp tabanlıdır",
+        "githubrepo": "GitHub deposu"
+      }
     }
+  }
 }

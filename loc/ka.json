@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "მზადაა მუშაობისთვის.",
-                "status_info": "ვიდეოს ინფორმაციის ჩატვირთვა...",
-                "status_preparing": "ჩამოტვირთვისთვის მომზადება...",
-                "status_done": "მზადაა! ფაილი წარმატებით შეინახა.",
-                "status_fetching": "ჩატვირთვა: ",
-                "status_downloading": "ჩამოტვირთვა...",
-                "status_ffmpeg": "FFmpeg აუდიოს შეერთება / კონვერტაცია...",
-                "status_canceled": "ჩამოტვირთვა გაუქმებულია მომხმარებლის მიერ.",
-                "status_noname": "უცნობი სახელი",
-                "error": "შეცდომა",
-                "error1": "მონაცემების ჩატვირთვა ვერ მოხერხდა",
-                "error2": "მონაცემების წაკითხვის შეცდომა",
-                "error3": "მითითებული საქაღალდე არ არსებობს. ჯერ ჩამოტვირთეთ ვიდეო ან შექმენით საქაღალდე.",
-                "openfoldertitle": "აირჩიეთ ფაილების შესანახი საქაღალდე",
-                "pastefirst": "გთხოვთ, ჩასვით YouTube-ის ბმული.",
-                "updatedialog": "ხელმისაწვდომია YT DLP GUI-ის განახლება.\nრეკომენდებულია აქტუალური ვერსიის დაყენება, რომელიც შეიცავს შესწორებებს და ბიბლიოთეკების განახლებებს.",
-                "updatebutton": "განახლება",
-                "updatecancel": "გადადება"
-            },
-            "gui": {
-                "videolink": "ვიდეოს ბმული:",
-                "savelocation": "შენახვის ადგილი:",
-                "savemode": "ჩამოტვირთვის რეჟიმი:",
-                "quality": "ხარისხი:",
-                "extension": "ფორმატი:",
-                "audio": "აუდიო",
-                "video": "ვიდეო",
-                "options": "ჩამოტვირთვის პარამეტრები:",
-                "onlyvideo": "მხოლოდ ვიდეო (ხმის გარეშე)",
-                "browse": "დათვალიერება",
-                "open": "გახსნა",
-                "max": "მაქსიმალურად ხელმისაწვდომი",
-                "button_start": "ჩამოტვირთვის დაწყება",
-                "button_cancel": "ჩამოტვირთვის გაუქმება",
-                "set": "პარამეტრები / პროგრამის შესახებ"
-            },
-            "settings": {
-                "label": "პარამეტრები",
-                "back": "უკან",
-                "lang": "პროგრამის ენა",
-                "cred": "იდეა და დამუშავება:",
-                "credNik": "პროგრამის ხატულა:",
-                "credthx": "განსაკუთრებული მადლობა:",
-                "sitebutton": "ოფიციალური საიტი",
-                "dlpcredit": "პროგრამა დაფუძნებულია yt-dlp-ზე",
-                "githubrepo": "GitHub რეპოზიტორი"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "მზადაა მუშაობისთვის.",
+        "status_info": "ვიდეოს ინფორმაციის ჩატვირთვა...",
+        "status_preparing": "ჩამოტვირთვისთვის მომზადება...",
+        "status_done": "მზადაა! ფაილი წარმატებით შეინახა.",
+        "status_fetching": "ჩატვირთვა: ",
+        "status_downloading": "ჩამოტვირთვა...",
+        "status_ffmpeg": "ფაილის შექმნა...",
+        "status_canceled": "ჩამოტვირთვა გაუქმებულია მომხმარებლის მიერ.",
+        "status_noname": "უცნობი სახელი",
+        "error": "შეცდომა",
+        "error1": "მონაცემების ჩატვირთვა ვერ მოხერხდა",
+        "error2": "მონაცემების წაკითხვის შეცდომა",
+        "error3": "მითითებული საქაღალდე არ არსებობს. ჯერ ჩამოტვირთეთ ვიდეო ან შექმენით საქაღალდე.",
+        "openfoldertitle": "აირჩიეთ ფაილების შესანახი საქაღალდე",
+        "pastefirst": "გთხოვთ, ჩასვით YouTube-ის ბმული.",
+        "updatedialog": "ხელმისაწვდომია YouTube Downloader-ის განახლება.\nრეკომენდებულია აქტუალური ვერსიის დაყენება, რომელიც შეიცავს შესწორებებს და ბიბლიოთეკების განახლებებს.",
+        "updatebutton": "განახლება",
+        "updatecancel": "გადადება",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "ვიდეოს ჩამოტვირთვა... ",
+        "status_downloading_audio": "აუდიოს ჩამოტვირთვა... "
+      },
+      "gui": {
+        "videolink": "ვიდეოს ბმული:",
+        "savelocation": "შენახვის ადგილი:",
+        "savemode": "ჩამოტვირთვის რეჟიმი:",
+        "quality": "ხარისხი:",
+        "extension": "ფორმატი:",
+        "audio": "აუდიო",
+        "video": "ვიდეო",
+        "options": "ჩამოტვირთვის პარამეტრები:",
+        "onlyvideo": "მხოლოდ ვიდეო (ხმის გარეშე)",
+        "browse": "დათვალიერება",
+        "open": "გახსნა",
+        "max": "მაქსიმალურად ხელმისაწვდომი",
+        "button_start": "ჩამოტვირთვის დაწყება",
+        "button_cancel": "ჩამოტვირთვის გაუქმება",
+        "set": "პარამეტრები / პროგრამის შესახებ",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "პარამეტრები",
+        "back": "უკან",
+        "lang": "პროგრამის ენა",
+        "cred": "იდეა და დამუშავება:",
+        "credNik": "პროგრამის ხატულა:",
+        "credthx": "განსაკუთრებული მადლობა:",
+        "sitebutton": "ოფიციალური საიტი",
+        "dlpcredit": "პროგრამა დაფუძნებულია yt-dlp-ზე",
+        "githubrepo": "GitHub რეპოზიტორი"
+      }
     }
+  }
 }

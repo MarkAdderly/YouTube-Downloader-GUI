@@ -1,54 +1,63 @@
 {
-    "categories": {
-        "loc": {
-            "main": {
-                "status_main": "Sẵn sàng hoạt động.",
-                "status_info": "Đang tải thông tin video...",
-                "status_preparing": "Đang chuẩn bị tải xuống...",
-                "status_done": "Hoàn tất! Tệp đã được lưu thành công.",
-                "status_fetching": "Đang tải: ",
-                "status_downloading": "Đang tải xuống...",
-                "status_ffmpeg": "Đang ghép / Chuyển đổi âm thanh FFmpeg...",
-                "status_canceled": "Tải xuống đã bị người dùng hủy.",
-                "status_noname": "Tên không xác định",
-                "error": "Lỗi",
-                "error1": "Không thể tải dữ liệu",
-                "error2": "Lỗi khi đọc dữ liệu",
-                "error3": "Thư mục được chỉ định không tồn tại. Vui lòng tải xuống video hoặc tạo thư mục trước.",
-                "openfoldertitle": "Chọn thư mục để lưu tệp",
-                "pastefirst": "Vui lòng dán liên kết YouTube.",
-                "updatedialog": "Đã có bản cập nhật cho YT DLP GUI.\nKhuyên dùng cài đặt phiên bản mới nhất để nhận các bản sửa lỗi và cập nhật thư viện.",
-                "updatebutton": "Cập nhật",
-                "updatecancel": "Để sau"
-            },
-            "gui": {
-                "videolink": "Liên kết video:",
-                "savelocation": "Vị trí lưu:",
-                "savemode": "Chế độ tải xuống:",
-                "quality": "Chất lượng:",
-                "extension": "Định dạng:",
-                "audio": "Âm thanh",
-                "video": "Video",
-                "options": "Tùy chọn tải xuống:",
-                "onlyvideo": "Chỉ video (không âm thanh)",
-                "browse": "Duyệt",
-                "open": "Mở",
-                "max": "Tối đa có thể",
-                "button_start": "Bắt đầu tải xuống",
-                "button_cancel": "Hủy tải xuống",
-                "set": "Cài đặt / Giới thiệu"
-            },
-            "settings": {
-                "label": "Cài đặt",
-                "back": "Quay lại",
-                "lang": "Ngôn ngữ chương trình",
-                "cred": "Ý tưởng và phát triển:",
-                "credNik": "Biểu tượng chương trình:",
-                "credthx": "Đặc biệt cảm ơn:",
-                "sitebutton": "Trang web chính thức",
-                "dlpcredit": "Chương trình dựa trên yt-dlp",
-                "githubrepo": "Kho lưu trữ trên GitHub"
-            }
-        }
+  "categories": {
+    "loc": {
+      "main": {
+        "status_main": "Sẵn sàng hoạt động.",
+        "status_info": "Đang tải thông tin video...",
+        "status_preparing": "Đang chuẩn bị tải xuống...",
+        "status_done": "Hoàn tất! Tệp đã được lưu thành công.",
+        "status_fetching": "Đang tải: ",
+        "status_downloading": "Đang tải xuống...",
+        "status_ffmpeg": "Đang tạo tệp...",
+        "status_canceled": "Tải xuống đã bị người dùng hủy.",
+        "status_noname": "Tên không xác định",
+        "error": "Lỗi",
+        "error1": "Không thể tải dữ liệu",
+        "error2": "Lỗi khi đọc dữ liệu",
+        "error3": "Thư mục được chỉ định không tồn tại. Vui lòng tải xuống video hoặc tạo thư mục trước.",
+        "openfoldertitle": "Chọn thư mục để lưu tệp",
+        "pastefirst": "Vui lòng dán liên kết YouTube.",
+        "updatedialog": "Đã có bản cập nhật cho YouTube Downloader.\nKhuyên dùng cài đặt phiên bản mới nhất để nhận các bản sửa lỗi và cập nhật thư viện.",
+        "updatebutton": "Cập nhật",
+        "updatecancel": "Để sau",
+        "ytdlp_update_dialog": "A new version of the yt-dlp library is available ({0}). Update now?\n\nWarning: refusing to update may break the ability to download videos.",
+        "ytdlp_update_title": "yt-dlp Update",
+        "ytdlp_downloading": "Downloading yt-dlp: ",
+        "ytdlp_done": "yt-dlp library updated successfully!",
+        "ytdlp_error": "Failed to update yt-dlp.",
+        "status_downloading_video": "Đang tải video xuống... ",
+        "status_downloading_audio": "Đang tải âm thanh xuống... "
+      },
+      "gui": {
+        "videolink": "Liên kết video:",
+        "savelocation": "Vị trí lưu:",
+        "savemode": "Chế độ tải xuống:",
+        "quality": "Chất lượng:",
+        "extension": "Định dạng:",
+        "audio": "Âm thanh",
+        "video": "Video",
+        "options": "Tùy chọn tải xuống:",
+        "onlyvideo": "Chỉ video (không âm thanh)",
+        "browse": "Duyệt",
+        "open": "Mở",
+        "max": "Tối đa có thể",
+        "button_start": "Bắt đầu tải xuống",
+        "button_cancel": "Hủy tải xuống",
+        "set": "Cài đặt / Giới thiệu",
+        "update_ytdlp": "Install Update",
+        "audio_orig": "Original Quality"
+      },
+      "settings": {
+        "label": "Cài đặt",
+        "back": "Quay lại",
+        "lang": "Ngôn ngữ chương trình",
+        "cred": "Ý tưởng và phát triển:",
+        "credNik": "Biểu tượng chương trình:",
+        "credthx": "Đặc biệt cảm ơn:",
+        "sitebutton": "Trang web chính thức",
+        "dlpcredit": "Chương trình dựa trên yt-dlp",
+        "githubrepo": "Kho lưu trữ trên GitHub"
+      }
     }
+  }
 }

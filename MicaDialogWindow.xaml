@@ -1,0 +1,65 @@
+<controls:MicaWindow x:Class="YT_DLP_GUI.MicaDialogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="clr-namespace:MicaWPF.Controls;assembly=MicaWPF"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        mc:Ignorable="d"
+        ui:ThemeManager.RequestedTheme="Dark"
+        Title="YouTube Downloader"
+        Icon="img/icon.ico"
+        SystemBackdropType="Tabbed"
+        WindowStartupLocation="CenterOwner"
+        ResizeMode="NoResize"
+        ShowInTaskbar="False"
+        SizeToContent="Height"
+        Width="440"
+        MinWidth="380"
+        MaxWidth="480"
+        d:Background="#202020">
+
+    <WindowChrome.WindowChrome>
+        <WindowChrome ResizeBorderThickness="0"
+                      CaptionHeight="32"
+                      CornerRadius="0"
+                      GlassFrameThickness="-1" />
+    </WindowChrome.WindowChrome>
+
+    <Grid Margin="24,32,24,24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="DialogTitleText" Grid.Row="0"
+                   FontSize="18" FontWeight="SemiBold"
+                   FontFamily="Segoe UI Variable Display, Segoe UI"
+                   Margin="0,0,0,12" TextWrapping="Wrap" />
+
+        <TextBlock x:Name="DialogMessageText" Grid.Row="1"
+                   FontSize="14" Opacity="0.85" LineHeight="20"
+                   FontFamily="Segoe UI Variable Display, Segoe UI"
+                   Margin="0,0,0,24" TextWrapping="Wrap" />
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right">
+            <controls:Button x:Name="PrimaryButton"
+                             MinWidth="110" Height="36"
+                             Padding="16,0"
+                             Margin="0,0,10,0"
+                             FontWeight="SemiBold"
+                             ui:ControlHelper.CornerRadius="6"
+                             Style="{DynamicResource MicaWPF.Styles.AccentedButton}"
+                             Click="PrimaryButton_Click"
+                             IsDefault="True"/>
+            <controls:Button x:Name="SecondaryButton"
+                             MinWidth="110" Height="36"
+                             Padding="16,0"
+                             FontWeight="SemiBold"
+                             ui:ControlHelper.CornerRadius="6"
+                             Click="SecondaryButton_Click"
+                             IsCancel="True"/>
+        </StackPanel>
+    </Grid>
+</controls:MicaWindow>
